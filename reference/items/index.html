@@ -1,0 +1,5053 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Wiki and server-owner manual for the Heirloom Minecraft cooking, gardening, Distillery, and Cafe plugins.">
+      
+      
+      
+        <link rel="canonical" href="https://kernel-person.github.io/heirloom-docs/reference/items/">
+      
+      
+        <link rel="prev" href="../config-files/">
+      
+      
+        <link rel="next" href="../vanilla-items/">
+      
+      
+      <link rel="icon" href="../../images/heirloom-logo.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Item IDs - Heirloom Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="deep-orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#item-id-reference" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Heirloom Wiki" class="md-header__button md-logo" aria-label="Heirloom Wiki" data-md-component="logo">
+      
+  <img src="../../images/heirloom-logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Heirloom Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Item IDs
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="deep-orange"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/kernel-person/heirloom-docs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    kernel-person/heirloom-docs
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Heirloom Wiki" class="md-nav__button md-logo" aria-label="Heirloom Wiki" data-md-component="logo">
+      
+  <img src="../../images/heirloom-logo.png" alt="logo">
+
+    </a>
+    Heirloom Wiki
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/kernel-person/heirloom-docs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    kernel-person/heirloom-docs
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Getting Started
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Getting Started
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting-started/installation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Installation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting-started/first-meal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    First Meal
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting-started/first-farm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    First Farm
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting-started/recipe-browser/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Recipe Browser
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../player-guide/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Player Guide
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Player Guide
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../player-guide/cooking/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cooking Basics
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../player-guide/recipe-search/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Recipe Search
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../player-guide/favourite-food/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Favourite Food
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../player-guide/quality/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Food Quality
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../player-guide/advancements/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Advancements
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../player-guide/mastery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cooking Mastery
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../player-guide/placeable-foods/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Placeable Foods And Feasts
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../player-guide/seed-discovery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Seed Discovery
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../stations/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Cooking Stations
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Cooking Stations
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../stations/oven/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Oven
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../stations/boiling-pot/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Boiling Pot
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../stations/mixing-bowl/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Mixing Bowl
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../stations/cutting-board/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cutting Board
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../stations/frying-pan/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Frying Pan
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../stations/barista-machine/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Barista Machine
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../recipes/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Recipes
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Recipes
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../recipes/default-recipes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Default Recipe Index
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../recipes/station-oven/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Oven Recipes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../recipes/station-boiling-pot/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Boiling Pot Recipes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../recipes/station-mixing-bowl/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Mixing Bowl Recipes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../recipes/station-cutting-board/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cutting Board Recipes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../recipes/station-frying-pan/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Frying Pan Recipes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../recipes/station-barista-machine/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Barista Recipes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../recipes/recipe-chains/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Recipe Chains
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../gardening/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Gardening
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Gardening
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gardening/lettuce/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lettuce
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gardening/onion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Onion
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gardening/corn/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Corn
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gardening/tomato/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tomato
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gardening/rice/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Rice
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gardening/plant-types/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Plant Types
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gardening/seed-packets/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Seed Packets
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gardening/wild-discovery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Wild Discovery And Loot
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gardening/ecoenchants/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    EcoEnchants
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../food-systems/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Food Systems
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_7" id="__nav_7_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Food Systems
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../food-systems/dietary-properties/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Dietary Properties
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../food-systems/food-properties/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Food Properties
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../food-systems/quality-and-effects/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Quality And Effects
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../food-systems/favourite-social/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Favourite And Social Bonuses
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../server-owners/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Server Owners
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_8" id="__nav_8_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Server Owners
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../server-owners/configuration/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Configuration
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../server-owners/permissions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Permissions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../server-owners/commands/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Commands
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../server-owners/language-files/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Language Files
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../server-owners/region-protection/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Region Protection
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../server-owners/diagnostics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Diagnostics
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../server-owners/updating/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Updating
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../customization/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Customization
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_9" id="__nav_9_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            Customization
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../customization/custom-foods/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Custom Foods
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../customization/custom-recipes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Custom Recipes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../customization/custom-crops/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Custom Crops
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../customization/seed-acquisition/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Seed Acquisition
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../customization/advancements/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Advancements
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../customization/visuals-overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Visual Integrations
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../customization/nexo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Nexo
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../customization/itemsadder/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ItemsAdder
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../customization/web-generator/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Web Generator
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Content Packs
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            Content Packs
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../content-packs/heirloom-asian-food-pack/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Heirloom Asian Food Pack
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Addons
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            Addons
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11_1" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../addons/distillery/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Distillery
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_11_1" id="__nav_11_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_11_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11_1">
+            <span class="md-nav__icon md-icon"></span>
+            Distillery
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../addons/distillery/getting-started/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Getting Started
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../addons/distillery/brewing-flow/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Brewing Flow
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../addons/distillery/mashables-traits/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Mashables And Traits
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../addons/distillery/inebriation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Inebriation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../addons/distillery/configuration/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Configuration
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../addons/distillery/commands-permissions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Commands And Permissions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../addons/cafe/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Cafe
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_11_2" id="__nav_11_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_11_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11_2">
+            <span class="md-nav__icon md-icon"></span>
+            Cafe
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../addons/cafe/getting-started/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Getting Started
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../addons/cafe/barista-machine/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Barista Machine
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../addons/cafe/coffee-tea/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Coffee And Tea Flow
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../addons/cafe/configuration/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Configuration
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../addons/cafe/commands-permissions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Commands And Permissions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../roadmap/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Future Addons
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Reference
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_12" id="__nav_12_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_12">
+            <span class="md-nav__icon md-icon"></span>
+            Reference
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../commands/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Commands
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../permissions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Permissions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../config-files/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Config Files
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Item IDs
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Item IDs
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#core-items" class="md-nav__link">
+    <span class="md-ellipsis">
+      Core Items
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#world-items" class="md-nav__link">
+    <span class="md-ellipsis">
+      World Items
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#festive-items" class="md-nav__link">
+    <span class="md-ellipsis">
+      Festive Items
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cafe-items" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cafe Items
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#heirloom-asian-food-pack-items" class="md-nav__link">
+    <span class="md-ellipsis">
+      Heirloom Asian Food Pack Items
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vanilla-items/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Vanilla Ingredients
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../crops/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Crop IDs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../recipes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Recipe Summary
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../recipe-actions-rules/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Recipe Actions And Rules
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../json-fields/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    JSON Fields
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../visual-ids/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Visual IDs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../configuration-files/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Legacy Configuration Path
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../customization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Legacy Customization Path
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gallery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Gallery
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../media-needed/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Media Needed
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_15" >
+        
+          
+          <label class="md-nav__link" for="__nav_15" id="__nav_15_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Legacy Paths
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_15_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_15">
+            <span class="md-nav__icon md-icon"></span>
+            Legacy Paths
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../core/cooking-stations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Core Cooking Stations
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../core/recipes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Core Recipes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../core/custom-foods/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Core Custom Foods
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../core/gardening/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Core Gardening
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../core/dietary-properties/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Core Dietary Properties
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../core/visual-integrations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Core Visual Integrations
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../core/admin-configuration/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Core Admin Configuration
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../distillery/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Distillery Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../distillery/getting-started/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Distillery Getting Started
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../distillery/brewing-flow/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Distillery Brewing Flow
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../distillery/mashables-traits/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Distillery Mashables And Traits
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../distillery/inebriation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Distillery Inebriation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../distillery/admin-configuration/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Distillery Admin Configuration
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../distillery/commands-permissions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Distillery Commands And Permissions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#core-items" class="md-nav__link">
+    <span class="md-ellipsis">
+      Core Items
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#world-items" class="md-nav__link">
+    <span class="md-ellipsis">
+      World Items
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#festive-items" class="md-nav__link">
+    <span class="md-ellipsis">
+      Festive Items
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cafe-items" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cafe Items
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#heirloom-asian-food-pack-items" class="md-nav__link">
+    <span class="md-ellipsis">
+      Heirloom Asian Food Pack Items
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="item-id-reference">Item ID Reference<a class="headerlink" href="#item-id-reference" title="Permanent link">&para;</a></h1>
+<p>Source-derived reference for bundled Heirloom custom items. Use these IDs in commands, recipes, visual mappings, and config files.</p>
+<h2 id="core-items">Core Items<a class="headerlink" href="#core-items" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Icon</th>
+<th>ID</th>
+<th>Name</th>
+<th>Base</th>
+<th>Edible</th>
+<th>Visual ID</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/bacon.png" alt="BACON" title="BACON"></td>
+<td><span id="item-bacon"></span><code>BACON</code></td>
+<td>Bacon</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>BACON</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/bag-of-flour.png" alt="BAG_OF_FLOUR" title="BAG_OF_FLOUR"></td>
+<td><span id="item-bag-of-flour"></span><code>BAG_OF_FLOUR</code></td>
+<td>Bag of Flour</td>
+<td>PLAYER_HEAD</td>
+<td>no</td>
+<td>BAG_OF_FLOUR</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/minecraft/sugar.png" alt="BAKING_POWDER" title="BAKING_POWDER"></td>
+<td><span id="item-baking-powder"></span><code>BAKING_POWDER</code></td>
+<td>Baking Powder</td>
+<td>SUGAR</td>
+<td>no</td>
+<td>BAKING_POWDER</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/beef-wellington.png" alt="BEEF_WELLINGTON" title="BEEF_WELLINGTON"></td>
+<td><span id="item-beef-wellington"></span><code>BEEF_WELLINGTON</code></td>
+<td>Beef Wellington</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>BEEF_WELLINGTON</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/blt.png" alt="BLT" title="BLT"></td>
+<td><span id="item-blt"></span><code>BLT</code></td>
+<td>BLT Sandwich</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>BLT</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/bread.png" alt="BREAD" title="BREAD"></td>
+<td><span id="item-bread"></span><code>BREAD</code></td>
+<td>Bread</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>BREAD</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/butter.png" alt="BUTTER" title="BUTTER"></td>
+<td><span id="item-butter"></span><code>BUTTER</code></td>
+<td>Butter</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>BUTTER</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/canned-tomatoes.png" alt="CANNED_TOMATOES" title="CANNED_TOMATOES"></td>
+<td><span id="item-canned-tomatoes"></span><code>CANNED_TOMATOES</code></td>
+<td>Canned Tomatoes</td>
+<td>PLAYER_HEAD</td>
+<td>no</td>
+<td>CANNED_TOMATOES</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/carbonara.png" alt="CARBONARA" title="CARBONARA"></td>
+<td><span id="item-carbonara"></span><code>CARBONARA</code></td>
+<td>Carbonara</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>CARBONARA</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/cheese.png" alt="CHEESE" title="CHEESE"></td>
+<td><span id="item-cheese"></span><code>CHEESE</code></td>
+<td>Cheese</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>CHEESE</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/cherimola-blan-grape.png" alt="CHERIMOLA_BLAN_GRAPE" title="CHERIMOLA_BLAN_GRAPE"></td>
+<td><span id="item-cherimola-blan-grape"></span><code>CHERIMOLA_BLAN_GRAPE</code></td>
+<td>⚗ Cherimola Blan Grape</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>CHERIMOLA_BLAN_GRAPE</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/chocolate.png" alt="CHOCOLATE" title="CHOCOLATE"></td>
+<td><span id="item-chocolate"></span><code>CHOCOLATE</code></td>
+<td>Chocolate</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>CHOCOLATE</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/cooked-rice.png" alt="COOKED_RICE" title="COOKED_RICE"></td>
+<td><span id="item-cooked-rice"></span><code>COOKED_RICE</code></td>
+<td>Cooked Rice</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>COOKED_RICE</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/cooking-oil.png" alt="COOKING_OIL" title="COOKING_OIL"></td>
+<td><span id="item-cooking-oil"></span><code>COOKING_OIL</code></td>
+<td>Oil</td>
+<td>PLAYER_HEAD</td>
+<td>no</td>
+<td>COOKING_OIL</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/corn.png" alt="CORN" title="CORN"></td>
+<td><span id="item-corn"></span><code>CORN</code></td>
+<td>Corn</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>CORN</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/cornmeal.png" alt="CORNMEAL" title="CORNMEAL"></td>
+<td><span id="item-cornmeal"></span><code>CORNMEAL</code></td>
+<td>Cornmeal</td>
+<td>PLAYER_HEAD</td>
+<td>no</td>
+<td>CORNMEAL</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/cranerlet-nuala-grape.png" alt="CRANERLET_NUALA_GRAPE" title="CRANERLET_NUALA_GRAPE"></td>
+<td><span id="item-cranerlet-nuala-grape"></span><code>CRANERLET_NUALA_GRAPE</code></td>
+<td>⚗ Cranerlet Nuala Grape</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>CRANERLET_NUALA_GRAPE</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/dough.png" alt="DOUGH" title="DOUGH"></td>
+<td><span id="item-dough"></span><code>DOUGH</code></td>
+<td>Dough</td>
+<td>PLAYER_HEAD</td>
+<td>no</td>
+<td>DOUGH</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/doughnut.png" alt="DOUGHNUT" title="DOUGHNUT"></td>
+<td><span id="item-doughnut"></span><code>DOUGHNUT</code></td>
+<td>Doughnut</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>DOUGHNUT</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/dry-pasta.png" alt="DRY_PASTA" title="DRY_PASTA"></td>
+<td><span id="item-dry-pasta"></span><code>DRY_PASTA</code></td>
+<td>Dry Pasta</td>
+<td>PLAYER_HEAD</td>
+<td>no</td>
+<td>DRY_PASTA</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/eggs-and-bacon.png" alt="EGGS_AND_BACON" title="EGGS_AND_BACON"></td>
+<td><span id="item-eggs-and-bacon"></span><code>EGGS_AND_BACON</code></td>
+<td>Eggs and Bacon</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>EGGS_AND_BACON</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/minecraft/iron-hoe.png" alt="FARMERS_HOE" title="FARMERS_HOE"></td>
+<td><span id="item-farmers-hoe"></span><code>FARMERS_HOE</code></td>
+<td>Farmer's Hoe</td>
+<td>IRON_HOE</td>
+<td>no</td>
+<td>FARMERS_HOE</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/fish-and-chips.png" alt="FISH_AND_CHIPS" title="FISH_AND_CHIPS"></td>
+<td><span id="item-fish-and-chips"></span><code>FISH_AND_CHIPS</code></td>
+<td>Fish and Chips</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>FISH_AND_CHIPS</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/flatbread.png" alt="FLATBREAD" title="FLATBREAD"></td>
+<td><span id="item-flatbread"></span><code>FLATBREAD</code></td>
+<td>Flatbread</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>FLATBREAD</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/french-onion-soup.png" alt="FRENCH_ONION_SOUP" title="FRENCH_ONION_SOUP"></td>
+<td><span id="item-french-onion-soup"></span><code>FRENCH_ONION_SOUP</code></td>
+<td>French Onion Soup</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>FRENCH_ONION_SOUP</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/french-toast.png" alt="FRENCH_TOAST" title="FRENCH_TOAST"></td>
+<td><span id="item-french-toast"></span><code>FRENCH_TOAST</code></td>
+<td>French Toast</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>FRENCH_TOAST</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/fried-chicken.png" alt="FRIED_CHICKEN" title="FRIED_CHICKEN"></td>
+<td><span id="item-fried-chicken"></span><code>FRIED_CHICKEN</code></td>
+<td>Fried Chicken</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>FRIED_CHICKEN</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/fried-egg.png" alt="FRIED_EGG" title="FRIED_EGG"></td>
+<td><span id="item-fried-egg"></span><code>FRIED_EGG</code></td>
+<td>Fried Egg</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>FRIED_EGG</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/fried-rice.png" alt="FRIED_RICE" title="FRIED_RICE"></td>
+<td><span id="item-fried-rice"></span><code>FRIED_RICE</code></td>
+<td>Fried Rice</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>FRIED_RICE</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/fries.png" alt="FRIES" title="FRIES"></td>
+<td><span id="item-fries"></span><code>FRIES</code></td>
+<td>Fries</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>FRIES</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/gralladina-fran-grape.png" alt="GRALLADINA_FRAN_GRAPE" title="GRALLADINA_FRAN_GRAPE"></td>
+<td><span id="item-gralladina-fran-grape"></span><code>GRALLADINA_FRAN_GRAPE</code></td>
+<td>⚗ Gralladina Fran Grape</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>GRALLADINA_FRAN_GRAPE</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/grilled-cheese.png" alt="GRILLED_CHEESE" title="GRILLED_CHEESE"></td>
+<td><span id="item-grilled-cheese"></span><code>GRILLED_CHEESE</code></td>
+<td>Grilled Cheese</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>GRILLED_CHEESE</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/hamburger.png" alt="HAMBURGER" title="HAMBURGER"></td>
+<td><span id="item-hamburger"></span><code>HAMBURGER</code></td>
+<td>Hamburger</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>HAMBURGER</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/heavy-cream.png" alt="HEAVY_CREAM" title="HEAVY_CREAM"></td>
+<td><span id="item-heavy-cream"></span><code>HEAVY_CREAM</code></td>
+<td>Heavy Cream</td>
+<td>PLAYER_HEAD</td>
+<td>no</td>
+<td>HEAVY_CREAM</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/ice-cream.png" alt="ICE_CREAM" title="ICE_CREAM"></td>
+<td><span id="item-ice-cream"></span><code>ICE_CREAM</code></td>
+<td>Ice Cream</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>ICE_CREAM</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/jam.png" alt="JAM" title="JAM"></td>
+<td><span id="item-jam"></span><code>JAM</code></td>
+<td>Jam</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>JAM</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/lasagna.png" alt="LASAGNA" title="LASAGNA"></td>
+<td><span id="item-lasagna"></span><code>LASAGNA</code></td>
+<td>Lasagna</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>LASAGNA</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/lettuce.png" alt="LETTUCE" title="LETTUCE"></td>
+<td><span id="item-lettuce"></span><code>LETTUCE</code></td>
+<td>Lettuce</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>LETTUCE</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/mac-and-cheese.png" alt="MAC_AND_CHEESE" title="MAC_AND_CHEESE"></td>
+<td><span id="item-mac-and-cheese"></span><code>MAC_AND_CHEESE</code></td>
+<td>Mac &amp; Cheese</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>MAC_AND_CHEESE</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/mashed-potatoes.png" alt="MASHED_POTATOES" title="MASHED_POTATOES"></td>
+<td><span id="item-mashed-potatoes"></span><code>MASHED_POTATOES</code></td>
+<td>Mashed Potatoes</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>MASHED_POTATOES</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/meloire-grape.png" alt="MELOIRE_GRAPE" title="MELOIRE_GRAPE"></td>
+<td><span id="item-meloire-grape"></span><code>MELOIRE_GRAPE</code></td>
+<td>⚗ Meloire Grape</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>MELOIRE_GRAPE</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/minced-meat.png" alt="MINCED_MEAT" title="MINCED_MEAT"></td>
+<td><span id="item-minced-meat"></span><code>MINCED_MEAT</code></td>
+<td>Minced Meat</td>
+<td>PLAYER_HEAD</td>
+<td>no</td>
+<td>MINCED_MEAT</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/omelette.png" alt="OMELETTE" title="OMELETTE"></td>
+<td><span id="item-omelette"></span><code>OMELETTE</code></td>
+<td>Omelette</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>OMELETTE</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/onion.png" alt="ONION" title="ONION"></td>
+<td><span id="item-onion"></span><code>ONION</code></td>
+<td>Onion</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>ONION</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/pancakes.png" alt="PANCAKES" title="PANCAKES"></td>
+<td><span id="item-pancakes"></span><code>PANCAKES</code></td>
+<td>Pancakes</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>PANCAKES</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/pasta-bolognese.png" alt="PASTA_BOLOGNESE" title="PASTA_BOLOGNESE"></td>
+<td><span id="item-pasta-bolognese"></span><code>PASTA_BOLOGNESE</code></td>
+<td>Pasta Bolognese</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>PASTA_BOLOGNESE</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/pie.png" alt="PIE" title="PIE"></td>
+<td><span id="item-pie"></span><code>PIE</code></td>
+<td>Pie</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>PIE</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/pizza.png" alt="PIZZA" title="PIZZA"></td>
+<td><span id="item-pizza"></span><code>PIZZA</code></td>
+<td>Pizza</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>PIZZA</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/plant-protein.png" alt="PLANT_PROTEIN" title="PLANT_PROTEIN"></td>
+<td><span id="item-plant-protein"></span><code>PLANT_PROTEIN</code></td>
+<td>Plant Protein</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>PLANT_PROTEIN</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/popcorn.png" alt="POPCORN" title="POPCORN"></td>
+<td><span id="item-popcorn"></span><code>POPCORN</code></td>
+<td>Popcorn</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>POPCORN</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/minecraft/knowledge-book.png" alt="RECIPE_BOOK" title="RECIPE_BOOK"></td>
+<td><span id="item-recipe-book"></span><code>RECIPE_BOOK</code></td>
+<td>Recipe Book</td>
+<td>KNOWLEDGE_BOOK</td>
+<td>no</td>
+<td>RECIPE_BOOK</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/renoit-grape.png" alt="RENOIT_GRAPE" title="RENOIT_GRAPE"></td>
+<td><span id="item-renoit-grape"></span><code>RENOIT_GRAPE</code></td>
+<td>⚗ Renoit Grape</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>RENOIT_GRAPE</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/rice.png" alt="RICE" title="RICE"></td>
+<td><span id="item-rice"></span><code>RICE</code></td>
+<td>Rice</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>RICE</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/salad.png" alt="SALAD" title="SALAD"></td>
+<td><span id="item-salad"></span><code>SALAD</code></td>
+<td>Salad</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>SALAD</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/minecraft/sugar.png" alt="SALT" title="SALT"></td>
+<td><span id="item-salt"></span><code>SALT</code></td>
+<td>Salt</td>
+<td>SUGAR</td>
+<td>no</td>
+<td>SALT</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/shepherds-pie.png" alt="SHEPHERDS_PIE" title="SHEPHERDS_PIE"></td>
+<td><span id="item-shepherds-pie"></span><code>SHEPHERDS_PIE</code></td>
+<td>Shepherd's Pie</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>SHEPHERDS_PIE</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/sushi.png" alt="SUSHI" title="SUSHI"></td>
+<td><span id="item-sushi"></span><code>SUSHI</code></td>
+<td>Sushi</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>SUSHI</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/taco.png" alt="TACO" title="TACO"></td>
+<td><span id="item-taco"></span><code>TACO</code></td>
+<td>Taco</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>TACO</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/temperate-seed-packet.png" alt="TEMPERATE_SEED_PACKET" title="TEMPERATE_SEED_PACKET"></td>
+<td><span id="item-temperate-seed-packet"></span><code>TEMPERATE_SEED_PACKET</code></td>
+<td>Temperate Seed Packet</td>
+<td>PLAYER_HEAD</td>
+<td>no</td>
+<td>TEMPERATE_SEED_PACKET</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/tin-can.png" alt="TIN_CAN" title="TIN_CAN"></td>
+<td><span id="item-tin-can"></span><code>TIN_CAN</code></td>
+<td>Tin Can</td>
+<td>PLAYER_HEAD</td>
+<td>no</td>
+<td>TIN_CAN</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/tomato.png" alt="TOMATO" title="TOMATO"></td>
+<td><span id="item-tomato"></span><code>TOMATO</code></td>
+<td>Tomato</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>TOMATO</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/tomato-soup.png" alt="TOMATO_SOUP" title="TOMATO_SOUP"></td>
+<td><span id="item-tomato-soup"></span><code>TOMATO_SOUP</code></td>
+<td>Tomato Soup</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>TOMATO_SOUP</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/tropical-seed-packet.png" alt="TROPICAL_SEED_PACKET" title="TROPICAL_SEED_PACKET"></td>
+<td><span id="item-tropical-seed-packet"></span><code>TROPICAL_SEED_PACKET</code></td>
+<td>Tropical Seed Packet</td>
+<td>PLAYER_HEAD</td>
+<td>no</td>
+<td>TROPICAL_SEED_PACKET</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/minecraft/potion.png" alt="VINEGAR" title="VINEGAR"></td>
+<td><span id="item-vinegar"></span><code>VINEGAR</code></td>
+<td>Vinegar</td>
+<td>POTION</td>
+<td>no</td>
+<td>VINEGAR</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/waffles.png" alt="WAFFLES" title="WAFFLES"></td>
+<td><span id="item-waffles"></span><code>WAFFLES</code></td>
+<td>Waffles</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>WAFFLES</td>
+</tr>
+</tbody>
+</table>
+<h2 id="world-items">World Items<a class="headerlink" href="#world-items" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Icon</th>
+<th>ID</th>
+<th>Name</th>
+<th>Base</th>
+<th>Edible</th>
+<th>Visual ID</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img class="hl-item-icon hl-icon-missing" src="../../images/items/system/missing.png" alt="CHICKEN_CURRY" title="CHICKEN_CURRY"></td>
+<td><span id="item-chicken-curry"></span><code>CHICKEN_CURRY</code></td>
+<td>Chicken Curry</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>CHICKEN_CURRY</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon hl-icon-missing" src="../../images/items/system/missing.png" alt="COCONUT_MILK" title="COCONUT_MILK"></td>
+<td><span id="item-coconut-milk"></span><code>COCONUT_MILK</code></td>
+<td>Coconut Milk</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>COCONUT_MILK</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/falafel.png" alt="FALAFEL" title="FALAFEL"></td>
+<td><span id="item-falafel"></span><code>FALAFEL</code></td>
+<td>Falafel</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>FALAFEL</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon hl-icon-missing" src="../../images/items/system/missing.png" alt="FALAFEL_WRAP" title="FALAFEL_WRAP"></td>
+<td><span id="item-falafel-wrap"></span><code>FALAFEL_WRAP</code></td>
+<td>Falafel Wrap</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>FALAFEL_WRAP</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon hl-icon-missing" src="../../images/items/system/missing.png" alt="GARLIC" title="GARLIC"></td>
+<td><span id="item-garlic"></span><code>GARLIC</code></td>
+<td>Garlic</td>
+<td>PLAYER_HEAD</td>
+<td>no</td>
+<td>GARLIC</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/kebab.png" alt="KEBAB" title="KEBAB"></td>
+<td><span id="item-kebab"></span><code>KEBAB</code></td>
+<td>Kebab</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>KEBAB</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/sushi-roll.png" alt="SUSHI_ROLL" title="SUSHI_ROLL"></td>
+<td><span id="item-sushi-roll"></span><code>SUSHI_ROLL</code></td>
+<td>Sushi Roll</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>SUSHI_ROLL</td>
+</tr>
+</tbody>
+</table>
+<h2 id="festive-items">Festive Items<a class="headerlink" href="#festive-items" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Icon</th>
+<th>ID</th>
+<th>Name</th>
+<th>Base</th>
+<th>Edible</th>
+<th>Visual ID</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/candy-apple.png" alt="CANDY_APPLE" title="CANDY_APPLE"></td>
+<td><span id="item-candy-apple"></span><code>CANDY_APPLE</code></td>
+<td>Candy Apple</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>CANDY_APPLE</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/candy-corn.png" alt="CANDY_CORN" title="CANDY_CORN"></td>
+<td><span id="item-candy-corn"></span><code>CANDY_CORN</code></td>
+<td>Candy Corn</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>CANDY_CORN</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/chocolate-egg.png" alt="CHOCOLATE_EGG" title="CHOCOLATE_EGG"></td>
+<td><span id="item-chocolate-egg"></span><code>CHOCOLATE_EGG</code></td>
+<td>Chocolate Egg</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>CHOCOLATE_EGG</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/christmas-ham.png" alt="CHRISTMAS_HAM" title="CHRISTMAS_HAM"></td>
+<td><span id="item-christmas-ham"></span><code>CHRISTMAS_HAM</code></td>
+<td>Christmas Ham</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>CHRISTMAS_HAM</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/eggnog.png" alt="EGGNOG" title="EGGNOG"></td>
+<td><span id="item-eggnog"></span><code>EGGNOG</code></td>
+<td>Eggnog</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>EGGNOG</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/gingerbread.png" alt="GINGERBREAD" title="GINGERBREAD"></td>
+<td><span id="item-gingerbread"></span><code>GINGERBREAD</code></td>
+<td>Gingerbread</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>GINGERBREAD</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/gingerbread-house.png" alt="GINGERBREAD_HOUSE" title="GINGERBREAD_HOUSE"></td>
+<td><span id="item-gingerbread-house"></span><code>GINGERBREAD_HOUSE</code></td>
+<td>Gingerbread House</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>GINGERBREAD_HOUSE</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/roast-turkey.png" alt="ROAST_TURKEY" title="ROAST_TURKEY"></td>
+<td><span id="item-roast-turkey"></span><code>ROAST_TURKEY</code></td>
+<td>Roast Turkey</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>ROAST_TURKEY</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/valentines-chocolate.png" alt="VALENTINES_CHOCOLATE" title="VALENTINES_CHOCOLATE"></td>
+<td><span id="item-valentines-chocolate"></span><code>VALENTINES_CHOCOLATE</code></td>
+<td>Valentine's Chocolate</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>VALENTINES_CHOCOLATE</td>
+</tr>
+</tbody>
+</table>
+<h2 id="cafe-items">Cafe Items<a class="headerlink" href="#cafe-items" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Icon</th>
+<th>ID</th>
+<th>Name</th>
+<th>Base</th>
+<th>Edible</th>
+<th>Visual ID</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/americano.png" alt="AMERICANO" title="AMERICANO"></td>
+<td><span id="item-americano"></span><code>AMERICANO</code></td>
+<td>Americano</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>AMERICANO</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/black-tea.png" alt="BLACK_TEA" title="BLACK_TEA"></td>
+<td><span id="item-black-tea"></span><code>BLACK_TEA</code></td>
+<td>Black Tea</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>BLACK_TEA</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/black-tea-leaves.png" alt="BLACK_TEA_LEAVES" title="BLACK_TEA_LEAVES"></td>
+<td><span id="item-black-tea-leaves"></span><code>BLACK_TEA_LEAVES</code></td>
+<td>Black Tea Leaves</td>
+<td>PLAYER_HEAD</td>
+<td>no</td>
+<td>BLACK_TEA_LEAVES</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/boba-tea.png" alt="BOBA_TEA" title="BOBA_TEA"></td>
+<td><span id="item-boba-tea"></span><code>BOBA_TEA</code></td>
+<td>Boba Tea</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>BOBA_TEA</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/cappuccino.png" alt="CAPPUCCINO" title="CAPPUCCINO"></td>
+<td><span id="item-cappuccino"></span><code>CAPPUCCINO</code></td>
+<td>Cappuccino</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>CAPPUCCINO</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/coffee-beans-dark.png" alt="COFFEE_BEANS_DARK" title="COFFEE_BEANS_DARK"></td>
+<td><span id="item-coffee-beans-dark"></span><code>COFFEE_BEANS_DARK</code></td>
+<td>Dark Roast Coffee Beans</td>
+<td>PLAYER_HEAD</td>
+<td>no</td>
+<td>COFFEE_BEANS_DARK</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/coffee-beans-light.png" alt="COFFEE_BEANS_LIGHT" title="COFFEE_BEANS_LIGHT"></td>
+<td><span id="item-coffee-beans-light"></span><code>COFFEE_BEANS_LIGHT</code></td>
+<td>Light Roast Coffee Beans</td>
+<td>PLAYER_HEAD</td>
+<td>no</td>
+<td>COFFEE_BEANS_LIGHT</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/coffee-beans-medium.png" alt="COFFEE_BEANS_MEDIUM" title="COFFEE_BEANS_MEDIUM"></td>
+<td><span id="item-coffee-beans-medium"></span><code>COFFEE_BEANS_MEDIUM</code></td>
+<td>Medium Roast Coffee Beans</td>
+<td>PLAYER_HEAD</td>
+<td>no</td>
+<td>COFFEE_BEANS_MEDIUM</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/coffee-cherry.png" alt="COFFEE_CHERRY" title="COFFEE_CHERRY"></td>
+<td><span id="item-coffee-cherry"></span><code>COFFEE_CHERRY</code></td>
+<td>Coffee Cherry</td>
+<td>PLAYER_HEAD</td>
+<td>no</td>
+<td>COFFEE_CHERRY</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/coffee-drink.png" alt="COFFEE_DRINK" title="COFFEE_DRINK"></td>
+<td><span id="item-coffee-drink"></span><code>COFFEE_DRINK</code></td>
+<td>Coffee Drink</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>ESPRESSO</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/dried-green-tea.png" alt="DRIED_GREEN_TEA" title="DRIED_GREEN_TEA"></td>
+<td><span id="item-dried-green-tea"></span><code>DRIED_GREEN_TEA</code></td>
+<td>Dried Green Tea</td>
+<td>PLAYER_HEAD</td>
+<td>no</td>
+<td>DRIED_GREEN_TEA</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/espresso.png" alt="ESPRESSO" title="ESPRESSO"></td>
+<td><span id="item-espresso"></span><code>ESPRESSO</code></td>
+<td>Espresso</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>ESPRESSO</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/flat-white.png" alt="FLAT_WHITE" title="FLAT_WHITE"></td>
+<td><span id="item-flat-white"></span><code>FLAT_WHITE</code></td>
+<td>Flat White</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>FLAT_WHITE</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/green-tea.png" alt="GREEN_TEA" title="GREEN_TEA"></td>
+<td><span id="item-green-tea"></span><code>GREEN_TEA</code></td>
+<td>Green Tea</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>GREEN_TEA</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/hot-cocoa.png" alt="HOT_COCOA" title="HOT_COCOA"></td>
+<td><span id="item-hot-cocoa"></span><code>HOT_COCOA</code></td>
+<td>Hot Cocoa</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>HOT_COCOA</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/iced-coffee.png" alt="ICED_COFFEE" title="ICED_COFFEE"></td>
+<td><span id="item-iced-coffee"></span><code>ICED_COFFEE</code></td>
+<td>Iced Coffee</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>ICED_COFFEE</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/latte.png" alt="LATTE" title="LATTE"></td>
+<td><span id="item-latte"></span><code>LATTE</code></td>
+<td>Latte</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>LATTE</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/matcha-latte.png" alt="MATCHA_LATTE" title="MATCHA_LATTE"></td>
+<td><span id="item-matcha-latte"></span><code>MATCHA_LATTE</code></td>
+<td>Matcha Latte</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>MATCHA_LATTE</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/matcha-powder.png" alt="MATCHA_POWDER" title="MATCHA_POWDER"></td>
+<td><span id="item-matcha-powder"></span><code>MATCHA_POWDER</code></td>
+<td>Matcha Powder</td>
+<td>PLAYER_HEAD</td>
+<td>no</td>
+<td>MATCHA_POWDER</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/mocha.png" alt="MOCHA" title="MOCHA"></td>
+<td><span id="item-mocha"></span><code>MOCHA</code></td>
+<td>Mocha</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>MOCHA</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/muffin.png" alt="MUFFIN" title="MUFFIN"></td>
+<td><span id="item-muffin"></span><code>MUFFIN</code></td>
+<td>Muffin</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>MUFFIN</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/oat-milk.png" alt="OAT_MILK" title="OAT_MILK"></td>
+<td><span id="item-oat-milk"></span><code>OAT_MILK</code></td>
+<td>Oat Milk</td>
+<td>PLAYER_HEAD</td>
+<td>no</td>
+<td>OAT_MILK</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/sweet-tea.png" alt="SWEET_TEA" title="SWEET_TEA"></td>
+<td><span id="item-sweet-tea"></span><code>SWEET_TEA</code></td>
+<td>Sweet Tea</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>SWEET_TEA</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/heirloom/tea-drink.png" alt="TEA_DRINK" title="TEA_DRINK"></td>
+<td><span id="item-tea-drink"></span><code>TEA_DRINK</code></td>
+<td>Tea Drink</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>GREEN_TEA</td>
+</tr>
+</tbody>
+</table>
+<h2 id="heirloom-asian-food-pack-items">Heirloom Asian Food Pack Items<a class="headerlink" href="#heirloom-asian-food-pack-items" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Icon</th>
+<th>ID</th>
+<th>Name</th>
+<th>Base</th>
+<th>Edible</th>
+<th>Visual ID</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/visual-pack/asian-boba-tea.png" alt="ASIAN_BOBA_TEA" title="ASIAN_BOBA_TEA"></td>
+<td><span id="item-asian-boba-tea"></span><code>ASIAN_BOBA_TEA</code></td>
+<td>Honey Boba Tea</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>ASIAN_BOBA_TEA</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/visual-pack/asian-chinese-fried-rice.png" alt="ASIAN_CHINESE_FRIED_RICE" title="ASIAN_CHINESE_FRIED_RICE"></td>
+<td><span id="item-asian-chinese-fried-rice"></span><code>ASIAN_CHINESE_FRIED_RICE</code></td>
+<td>Chinese Fried Rice</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>ASIAN_CHINESE_FRIED_RICE</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/visual-pack/asian-dango.png" alt="ASIAN_DANGO" title="ASIAN_DANGO"></td>
+<td><span id="item-asian-dango"></span><code>ASIAN_DANGO</code></td>
+<td>Dango</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>ASIAN_DANGO</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/visual-pack/asian-dim-sum.png" alt="ASIAN_DIM_SUM" title="ASIAN_DIM_SUM"></td>
+<td><span id="item-asian-dim-sum"></span><code>ASIAN_DIM_SUM</code></td>
+<td>Dim Sum</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>ASIAN_DIM_SUM</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/visual-pack/asian-dumpling-meat.png" alt="ASIAN_DUMPLING_MEAT" title="ASIAN_DUMPLING_MEAT"></td>
+<td><span id="item-asian-dumpling-meat"></span><code>ASIAN_DUMPLING_MEAT</code></td>
+<td>Meat Dumplings</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>ASIAN_DUMPLING_MEAT</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/visual-pack/asian-dumpling-seafood.png" alt="ASIAN_DUMPLING_SEAFOOD" title="ASIAN_DUMPLING_SEAFOOD"></td>
+<td><span id="item-asian-dumpling-seafood"></span><code>ASIAN_DUMPLING_SEAFOOD</code></td>
+<td>Seafood Dumplings</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>ASIAN_DUMPLING_SEAFOOD</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/visual-pack/asian-dumpling-vegetable.png" alt="ASIAN_DUMPLING_VEGETABLE" title="ASIAN_DUMPLING_VEGETABLE"></td>
+<td><span id="item-asian-dumpling-vegetable"></span><code>ASIAN_DUMPLING_VEGETABLE</code></td>
+<td>Vegetable Dumplings</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>ASIAN_DUMPLING_VEGETABLE</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/visual-pack/asian-feast-bento.png" alt="ASIAN_FEAST_BENTO" title="ASIAN_FEAST_BENTO"></td>
+<td><span id="item-asian-feast-bento"></span><code>ASIAN_FEAST_BENTO</code></td>
+<td>Bento Feast</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>ASIAN_FEAST_BENTO</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/visual-pack/asian-gyoza.png" alt="ASIAN_GYOZA" title="ASIAN_GYOZA"></td>
+<td><span id="item-asian-gyoza"></span><code>ASIAN_GYOZA</code></td>
+<td>Gyoza</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>ASIAN_GYOZA</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/visual-pack/asian-hot-pot.png" alt="ASIAN_HOT_POT" title="ASIAN_HOT_POT"></td>
+<td><span id="item-asian-hot-pot"></span><code>ASIAN_HOT_POT</code></td>
+<td>Hot Pot</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>ASIAN_HOT_POT</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/visual-pack/asian-maki-cod.png" alt="ASIAN_MAKI_COD" title="ASIAN_MAKI_COD"></td>
+<td><span id="item-asian-maki-cod"></span><code>ASIAN_MAKI_COD</code></td>
+<td>Cod Maki</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>ASIAN_MAKI_COD</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/visual-pack/asian-maki-mushroom.png" alt="ASIAN_MAKI_MUSHROOM" title="ASIAN_MAKI_MUSHROOM"></td>
+<td><span id="item-asian-maki-mushroom"></span><code>ASIAN_MAKI_MUSHROOM</code></td>
+<td>Mushroom Maki</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>ASIAN_MAKI_MUSHROOM</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/visual-pack/asian-maki-rainbow.png" alt="ASIAN_MAKI_RAINBOW" title="ASIAN_MAKI_RAINBOW"></td>
+<td><span id="item-asian-maki-rainbow"></span><code>ASIAN_MAKI_RAINBOW</code></td>
+<td>Tropical Maki</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>ASIAN_MAKI_RAINBOW</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/visual-pack/asian-maki-salmon.png" alt="ASIAN_MAKI_SALMON" title="ASIAN_MAKI_SALMON"></td>
+<td><span id="item-asian-maki-salmon"></span><code>ASIAN_MAKI_SALMON</code></td>
+<td>Salmon Maki</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>ASIAN_MAKI_SALMON</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/visual-pack/asian-maki-tamago.png" alt="ASIAN_MAKI_TAMAGO" title="ASIAN_MAKI_TAMAGO"></td>
+<td><span id="item-asian-maki-tamago"></span><code>ASIAN_MAKI_TAMAGO</code></td>
+<td>Tamago Maki</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>ASIAN_MAKI_TAMAGO</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/visual-pack/asian-maki-vegetable.png" alt="ASIAN_MAKI_VEGETABLE" title="ASIAN_MAKI_VEGETABLE"></td>
+<td><span id="item-asian-maki-vegetable"></span><code>ASIAN_MAKI_VEGETABLE</code></td>
+<td>Vegetable Maki</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>ASIAN_MAKI_VEGETABLE</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/visual-pack/asian-matcha-ice-cream.png" alt="ASIAN_MATCHA_ICE_CREAM" title="ASIAN_MATCHA_ICE_CREAM"></td>
+<td><span id="item-asian-matcha-ice-cream"></span><code>ASIAN_MATCHA_ICE_CREAM</code></td>
+<td>Matcha Ice Cream</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>ASIAN_MATCHA_ICE_CREAM</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/visual-pack/asian-miso-soup.png" alt="ASIAN_MISO_SOUP" title="ASIAN_MISO_SOUP"></td>
+<td><span id="item-asian-miso-soup"></span><code>ASIAN_MISO_SOUP</code></td>
+<td>Miso Soup</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>ASIAN_MISO_SOUP</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/visual-pack/asian-mochi.png" alt="ASIAN_MOCHI" title="ASIAN_MOCHI"></td>
+<td><span id="item-asian-mochi"></span><code>ASIAN_MOCHI</code></td>
+<td>Mochi</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>ASIAN_MOCHI</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/visual-pack/asian-mochi-berry.png" alt="ASIAN_MOCHI_BERRY" title="ASIAN_MOCHI_BERRY"></td>
+<td><span id="item-asian-mochi-berry"></span><code>ASIAN_MOCHI_BERRY</code></td>
+<td>Sweet Berry Mochi</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>ASIAN_MOCHI_BERRY</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/visual-pack/asian-mochi-matcha.png" alt="ASIAN_MOCHI_MATCHA" title="ASIAN_MOCHI_MATCHA"></td>
+<td><span id="item-asian-mochi-matcha"></span><code>ASIAN_MOCHI_MATCHA</code></td>
+<td>Matcha Mochi</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>ASIAN_MOCHI_MATCHA</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/visual-pack/asian-nigiri-cod.png" alt="ASIAN_NIGIRI_COD" title="ASIAN_NIGIRI_COD"></td>
+<td><span id="item-asian-nigiri-cod"></span><code>ASIAN_NIGIRI_COD</code></td>
+<td>Cod Nigiri</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>ASIAN_NIGIRI_COD</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/visual-pack/asian-nigiri-mushroom.png" alt="ASIAN_NIGIRI_MUSHROOM" title="ASIAN_NIGIRI_MUSHROOM"></td>
+<td><span id="item-asian-nigiri-mushroom"></span><code>ASIAN_NIGIRI_MUSHROOM</code></td>
+<td>Mushroom Nigiri</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>ASIAN_NIGIRI_MUSHROOM</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/visual-pack/asian-nigiri-salmon.png" alt="ASIAN_NIGIRI_SALMON" title="ASIAN_NIGIRI_SALMON"></td>
+<td><span id="item-asian-nigiri-salmon"></span><code>ASIAN_NIGIRI_SALMON</code></td>
+<td>Salmon Nigiri</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>ASIAN_NIGIRI_SALMON</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/visual-pack/asian-nigiri-tamago.png" alt="ASIAN_NIGIRI_TAMAGO" title="ASIAN_NIGIRI_TAMAGO"></td>
+<td><span id="item-asian-nigiri-tamago"></span><code>ASIAN_NIGIRI_TAMAGO</code></td>
+<td>Tamago Nigiri</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>ASIAN_NIGIRI_TAMAGO</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/visual-pack/asian-nigiri-tofu.png" alt="ASIAN_NIGIRI_TOFU" title="ASIAN_NIGIRI_TOFU"></td>
+<td><span id="item-asian-nigiri-tofu"></span><code>ASIAN_NIGIRI_TOFU</code></td>
+<td>Tofu Nigiri</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>ASIAN_NIGIRI_TOFU</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/visual-pack/asian-nigiri-tropical.png" alt="ASIAN_NIGIRI_TROPICAL" title="ASIAN_NIGIRI_TROPICAL"></td>
+<td><span id="item-asian-nigiri-tropical"></span><code>ASIAN_NIGIRI_TROPICAL</code></td>
+<td>Tropical Fish Nigiri</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>ASIAN_NIGIRI_TROPICAL</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/visual-pack/asian-nigiri-unagi.png" alt="ASIAN_NIGIRI_UNAGI" title="ASIAN_NIGIRI_UNAGI"></td>
+<td><span id="item-asian-nigiri-unagi"></span><code>ASIAN_NIGIRI_UNAGI</code></td>
+<td>Unagi Nigiri</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>ASIAN_NIGIRI_UNAGI</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/visual-pack/asian-peking-duck.png" alt="ASIAN_PEKING_DUCK" title="ASIAN_PEKING_DUCK"></td>
+<td><span id="item-asian-peking-duck"></span><code>ASIAN_PEKING_DUCK</code></td>
+<td>Peking Duck</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>ASIAN_PEKING_DUCK</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/visual-pack/asian-poke-bowl-cod.png" alt="ASIAN_POKE_BOWL_COD" title="ASIAN_POKE_BOWL_COD"></td>
+<td><span id="item-asian-poke-bowl-cod"></span><code>ASIAN_POKE_BOWL_COD</code></td>
+<td>Cod Poke Bowl</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>ASIAN_POKE_BOWL_COD</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/visual-pack/asian-poke-bowl-salmon.png" alt="ASIAN_POKE_BOWL_SALMON" title="ASIAN_POKE_BOWL_SALMON"></td>
+<td><span id="item-asian-poke-bowl-salmon"></span><code>ASIAN_POKE_BOWL_SALMON</code></td>
+<td>Salmon Poke Bowl</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>ASIAN_POKE_BOWL_SALMON</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/visual-pack/asian-poke-bowl-tropical.png" alt="ASIAN_POKE_BOWL_TROPICAL" title="ASIAN_POKE_BOWL_TROPICAL"></td>
+<td><span id="item-asian-poke-bowl-tropical"></span><code>ASIAN_POKE_BOWL_TROPICAL</code></td>
+<td>Tropical Fish Poke Bowl</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>ASIAN_POKE_BOWL_TROPICAL</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/visual-pack/asian-pork-bao.png" alt="ASIAN_PORK_BAO" title="ASIAN_PORK_BAO"></td>
+<td><span id="item-asian-pork-bao"></span><code>ASIAN_PORK_BAO</code></td>
+<td>Pork Bao</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>ASIAN_PORK_BAO</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/visual-pack/asian-portable-bento.png" alt="ASIAN_PORTABLE_BENTO" title="ASIAN_PORTABLE_BENTO"></td>
+<td><span id="item-asian-portable-bento"></span><code>ASIAN_PORTABLE_BENTO</code></td>
+<td>Bento Box</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>ASIAN_PORTABLE_BENTO</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/visual-pack/asian-rice-flour.png" alt="ASIAN_RICE_FLOUR" title="ASIAN_RICE_FLOUR"></td>
+<td><span id="item-asian-rice-flour"></span><code>ASIAN_RICE_FLOUR</code></td>
+<td>Rice Flour</td>
+<td>PLAYER_HEAD</td>
+<td>no</td>
+<td>ASIAN_RICE_FLOUR</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/visual-pack/asian-rice-noodles.png" alt="ASIAN_RICE_NOODLES" title="ASIAN_RICE_NOODLES"></td>
+<td><span id="item-asian-rice-noodles"></span><code>ASIAN_RICE_NOODLES</code></td>
+<td>Rice Noodles</td>
+<td>PLAYER_HEAD</td>
+<td>no</td>
+<td>ASIAN_RICE_NOODLES</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/visual-pack/asian-sashimi-cod.png" alt="ASIAN_SASHIMI_COD" title="ASIAN_SASHIMI_COD"></td>
+<td><span id="item-asian-sashimi-cod"></span><code>ASIAN_SASHIMI_COD</code></td>
+<td>Cod Sashimi</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>ASIAN_SASHIMI_COD</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/visual-pack/asian-sashimi-pufferfish.png" alt="ASIAN_SASHIMI_PUFFERFISH" title="ASIAN_SASHIMI_PUFFERFISH"></td>
+<td><span id="item-asian-sashimi-pufferfish"></span><code>ASIAN_SASHIMI_PUFFERFISH</code></td>
+<td>Pufferfish Sashimi</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>ASIAN_SASHIMI_PUFFERFISH</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/visual-pack/asian-sashimi-salmon.png" alt="ASIAN_SASHIMI_SALMON" title="ASIAN_SASHIMI_SALMON"></td>
+<td><span id="item-asian-sashimi-salmon"></span><code>ASIAN_SASHIMI_SALMON</code></td>
+<td>Salmon Sashimi</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>ASIAN_SASHIMI_SALMON</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/visual-pack/asian-sashimi-tropical.png" alt="ASIAN_SASHIMI_TROPICAL" title="ASIAN_SASHIMI_TROPICAL"></td>
+<td><span id="item-asian-sashimi-tropical"></span><code>ASIAN_SASHIMI_TROPICAL</code></td>
+<td>Tropical Fish Sashimi</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>ASIAN_SASHIMI_TROPICAL</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/visual-pack/asian-shoyu-ramen.png" alt="ASIAN_SHOYU_RAMEN" title="ASIAN_SHOYU_RAMEN"></td>
+<td><span id="item-asian-shoyu-ramen"></span><code>ASIAN_SHOYU_RAMEN</code></td>
+<td>Shoyu Ramen</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>ASIAN_SHOYU_RAMEN</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/visual-pack/asian-spring-roll.png" alt="ASIAN_SPRING_ROLL" title="ASIAN_SPRING_ROLL"></td>
+<td><span id="item-asian-spring-roll"></span><code>ASIAN_SPRING_ROLL</code></td>
+<td>Spring Rolls</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>ASIAN_SPRING_ROLL</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/visual-pack/asian-sushi-rice.png" alt="ASIAN_SUSHI_RICE" title="ASIAN_SUSHI_RICE"></td>
+<td><span id="item-asian-sushi-rice"></span><code>ASIAN_SUSHI_RICE</code></td>
+<td>Sushi Rice</td>
+<td>PLAYER_HEAD</td>
+<td>no</td>
+<td>ASIAN_SUSHI_RICE</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/visual-pack/asian-takoyaki.png" alt="ASIAN_TAKOYAKI" title="ASIAN_TAKOYAKI"></td>
+<td><span id="item-asian-takoyaki"></span><code>ASIAN_TAKOYAKI</code></td>
+<td>Takoyaki</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>ASIAN_TAKOYAKI</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/visual-pack/asian-teriyaki-bowl.png" alt="ASIAN_TERIYAKI_BOWL" title="ASIAN_TERIYAKI_BOWL"></td>
+<td><span id="item-asian-teriyaki-bowl"></span><code>ASIAN_TERIYAKI_BOWL</code></td>
+<td>Chicken Teriyaki Bowl</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>ASIAN_TERIYAKI_BOWL</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/visual-pack/asian-tonkotsu-ramen.png" alt="ASIAN_TONKOTSU_RAMEN" title="ASIAN_TONKOTSU_RAMEN"></td>
+<td><span id="item-asian-tonkotsu-ramen"></span><code>ASIAN_TONKOTSU_RAMEN</code></td>
+<td>Tonkotsu Ramen</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>ASIAN_TONKOTSU_RAMEN</td>
+</tr>
+<tr>
+<td><img class="hl-item-icon" src="../../images/items/visual-pack/asian-udon.png" alt="ASIAN_UDON" title="ASIAN_UDON"></td>
+<td><span id="item-asian-udon"></span><code>ASIAN_UDON</code></td>
+<td>Udon</td>
+<td>PLAYER_HEAD</td>
+<td>yes</td>
+<td>ASIAN_UDON</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.instant.prefetch", "navigation.instant.progress", "navigation.sections", "navigation.top", "navigation.indexes", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+        <script src="../../javascripts/navigation-scroll.js"></script>
+      
+    
+  </body>
+</html>
