@@ -11,6 +11,21 @@ Cafe adds several chains:
 - Tea leaves -> green tea, black tea, sweet tea, matcha latte.
 - Tea + milk + sugar + boba ingredient -> boba tea.
 
+<figure class="hl-media-card">
+  <img src="../../images/cafe/cafe_grow_harvest_coffee.gif" alt="Growing and harvesting coffee cherries">
+  <figcaption>Grow coffee plants and harvest ripe coffee cherries.</figcaption>
+</figure>
+
+<figure class="hl-media-card">
+  <img src="../../images/cafe/cafe_roast_coffee.gif" alt="Roasting coffee beans in the Oven">
+  <figcaption>Roast coffee beans through light, medium, and dark stages.</figcaption>
+</figure>
+
+<figure class="hl-media-card">
+  <img src="../../images/cafe/cafe_boba_brewing.gif" alt="Brewing boba tea at the Barista Machine">
+  <figcaption>Combine tea, milk, sugar, and boba ingredients at the Barista Machine.</figcaption>
+</figure>
+
 ## Core Stations Vs Cafe Station
 
 The Oven and prep stations create the ingredients. The Barista Machine assembles the drinks. If a player tries to make a latte before pulling espresso, the recipe is missing an intermediate, not a permission.
