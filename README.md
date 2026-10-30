@@ -1,9 +1,8 @@
-# Heirloom Docs
+# Tài liệu Heirloom
 
-Public user and admin documentation for the Heirloom Minecraft plugin and the
-Heirloom Distillery addon.
+Tài liệu công khai dành cho người chơi và quản trị viên của plugin Heirloom Minecraft, cùng các tiện ích mở rộng Heirloom Distillery (hệ thống ủ rượu) và Heirloom Cafe (hệ thống cà phê).
 
-## Local Preview
+## Xem trước cục bộ tại máy nhà
 
 ```bash
 python3 -m venv .venv
@@ -12,13 +11,11 @@ pip install -r requirements.txt
 mkdocs serve
 ```
 
-Open `http://127.0.0.1:8000/`.
+Mở `http://127.0.0.1:8000/`.
 
-## Regenerate Source Reference
+## Tái tạo tham chiếu nguồn
 
-The wiki generator reads bundled Core and Cafe JSON plus every release content
-pack under `../foodplugin/packs/*/content/`. It rebuilds the item reference,
-recipe pages, content-pack pages, navigation, and icon manifest together.
+Trình tạo wiki sẽ đọc các tệp JSON của Core và Cafe được đóng gói sẵn, cùng với toàn bộ các gói nội dung đã phát hành trong thư mục `../foodplugin/packs/*/content/`. Toàn bộ tài liệu tham chiếu vật phẩm, trang công thức, trang gói nội dung, hệ thống điều hướng và bảng biểu tượng sẽ được xây dựng lại đồng thời trong một lần.
 
 ```bash
 .venv/bin/python tools/generate_reference_pages.py --use-visual-pack-icons
@@ -28,22 +25,18 @@ recipe pages, content-pack pages, navigation, and icon manifest together.
 .venv/bin/mkdocs build --strict
 ```
 
-Each content pack must use matching `pack` metadata in its item and recipe JSON.
-Conflicting metadata stops generation instead of publishing mixed pack data.
+Mỗi gói nội dung phải sử dụng giá trị siêu dữ liệu `pack` nhất quán trong cả JSON vật phẩm và JSON công thức. Nếu hai giá trị siêu dữ liệu không khớp, quá trình tạo sẽ dừng lại thay vì xuất ra một gói dữ liệu chứa các thành phần không đồng nhất.
 
-## Publish
+## Xuất bản
 
-The included GitHub Actions workflow builds the MkDocs site and publishes it to
-GitHub Pages from the `gh-pages` branch.
+Quy trình GitHub Actions được tích hợp sẵn sẽ tự động xây dựng trang MkDocs và xuất bản lên GitHub Pages từ nhánh `gh-pages`.
 
-After the first successful workflow run, enable Pages in the repository
-settings:
+Sau khi quy trình workflow chạy thành công lần đầu, hãy bật Pages trong cài đặt kho lưu trữ:
+- Nguồn: Deploy from branch
+- Nhánh: `gh-pages`
+- Thư mục: `/`
 
-- Source: Deploy from branch
-- Branch: `gh-pages`
-- Folder: `/`
-
-Then use the published URL in public plugin listings and any in-game guide link:
+Sau đó, sử dụng URL đã được xuất bản trong danh sách plugin công khai cũng như trong mọi liên kết hướng dẫn được sử dụng trong trò chơi:
 
 ```yml
 guide-url: "https://kernel-person.github.io/heirloom-docs/"
