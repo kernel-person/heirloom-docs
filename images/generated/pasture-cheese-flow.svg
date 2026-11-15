@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1446" role="img" aria-labelledby="title desc">
+<title id="title">Pasture affinity cheesemaking recommended paths</title>
+<desc id="desc">Recommended paths from milk sources through curds, treatments, preparation, pressing, aging, 16 affinity cheeses, and direct whey cheeses. Experimentation remains valid.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#9a6938"/></marker></defs>
+<rect width="1200" height="1446" rx="28" fill="#fffaf0"/>
+<text x="600" y="56" text-anchor="middle" font-family="system-ui,sans-serif" font-size="30" font-weight="700" fill="#3d2c1e">Heirloom Pasture Cheesemaking</text>
+<text x="600" y="91" text-anchor="middle" font-family="system-ui,sans-serif" font-size="17" fill="#72563c">Recommended paths — experimentation is always welcome</text>
+<text x="30" y="130" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#9a6938">SHARED FLOW</text>
+<g id="flow-milk-sources">
+<rect x="20" y="150" width="144" height="92" rx="14" fill="#f6e7c6" stroke="#c49256" stroke-width="2"/>
+<text x="92.0" y="176" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#3d2c1e">Milk sources</text>
+<text x="92.0" y="201" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11.5" fill="#5d4a38">Cold • Temperate • Warm</text>
+<text x="92.0" y="220" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11.5" fill="#5d4a38">Cow • Goat • Sheep</text></g>
+<path d="M164 196.0 H179" stroke="#9a6938" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<g id="flow-boiling-pot">
+<rect x="184" y="150" width="144" height="92" rx="14" fill="#f6e7c6" stroke="#c49256" stroke-width="2"/>
+<text x="256.0" y="176" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#3d2c1e">Boiling Pot</text>
+<text x="256.0" y="201" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11.5" fill="#5d4a38">Boil three mixed pails</text>
+<text x="256.0" y="220" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11.5" fill="#5d4a38">Fresh Curds + whey</text></g>
+<path d="M328 196.0 H343" stroke="#9a6938" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<g id="flow-fresh-curds">
+<rect x="348" y="150" width="144" height="92" rx="14" fill="#f6e7c6" stroke="#c49256" stroke-width="2"/>
+<text x="420.0" y="176" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#3d2c1e">Fresh Curds</text>
+<text x="420.0" y="201" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11.5" fill="#5d4a38">Milk blend remembered</text>
+<text x="420.0" y="220" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11.5" fill="#5d4a38">Try different paths</text></g>
+<path d="M492 196.0 H507" stroke="#9a6938" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<g id="flow-treatments">
+<rect x="512" y="150" width="144" height="92" rx="14" fill="#f6e7c6" stroke="#c49256" stroke-width="2"/>
+<text x="584.0" y="176" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#3d2c1e">Treatments</text>
+<text x="584.0" y="201" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11.5" fill="#5d4a38">Acid • boil • wash</text>
+<text x="584.0" y="220" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11.5" fill="#5d4a38">Whey • water • stretch</text></g>
+<path d="M656 196.0 H671" stroke="#9a6938" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<g id="flow-salt-or-brine">
+<rect x="676" y="150" width="144" height="92" rx="14" fill="#f6e7c6" stroke="#c49256" stroke-width="2"/>
+<text x="748.0" y="176" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#3d2c1e">Salt or brine</text>
+<text x="748.0" y="201" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11.5" fill="#5d4a38">Mixing Bowl</text>
+<text x="748.0" y="220" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11.5" fill="#5d4a38">Optional cheese culture</text></g>
+<path d="M820 196.0 H835" stroke="#9a6938" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<g id="flow-farmhouse-press">
+<rect x="840" y="150" width="144" height="92" rx="14" fill="#f6e7c6" stroke="#c49256" stroke-width="2"/>
+<text x="912.0" y="176" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#3d2c1e">Farmhouse Press</text>
+<text x="912.0" y="201" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11.5" fill="#5d4a38">Prepared Cheese</text>
+<text x="912.0" y="220" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11.5" fill="#5d4a38">Feta may finish here</text></g>
+<path d="M984 196.0 H999" stroke="#9a6938" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<g id="flow-aging-rack">
+<rect x="1004" y="150" width="144" height="92" rx="14" fill="#f6e7c6" stroke="#c49256" stroke-width="2"/>
+<text x="1076.0" y="176" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#3d2c1e">Aging Rack</text>
+<text x="1076.0" y="201" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11.5" fill="#5d4a38">Climate shapes result</text>
+<text x="1076.0" y="220" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11.5" fill="#5d4a38">Remove after one day</text></g>
+<rect x="28" y="274" width="1144" height="2" fill="#ead5ae"/>
+<text x="30" y="311" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#9a6938">16 SUGGESTED ROUTES</text>
+<text x="1170" y="311" text-anchor="end" font-family="system-ui,sans-serif" font-size="13" fill="#72563c">Lore recommends the next useful action as your affinities change</text>
+<g id="route-paneer" data-item="PANEER">
+<rect x="30" y="332" width="540" height="92" rx="13" fill="#ffffff" stroke="#dfc28d" stroke-width="2"/>
+<circle cx="58" cy="360" r="15" fill="#f0c96d"/>
+<text x="58" y="365" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="#3d2c1e">1</text>
+<text x="82" y="365" font-family="system-ui,sans-serif" font-size="17" font-weight="700" fill="#3d2c1e">Paneer</text>
+<text x="52" y="391" font-family="system-ui,sans-serif" font-size="12.5" fill="#5d4a38">Warm Cow milk; acid-set with lemon or vinegar; finish fresh.</text>
+</g>
+<g id="route-mozzarella" data-item="MOZZARELLA">
+<rect x="605" y="332" width="540" height="92" rx="13" fill="#ffffff" stroke="#dfc28d" stroke-width="2"/>
+<circle cx="633" cy="360" r="15" fill="#f0c96d"/>
+<text x="633" y="365" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="#3d2c1e">2</text>
+<text x="657" y="365" font-family="system-ui,sans-serif" font-size="17" font-weight="700" fill="#3d2c1e">Mozzarella</text>
+<text x="627" y="391" font-family="system-ui,sans-serif" font-size="12.5" fill="#5d4a38">Cold Cow milk; second-boil; hot-water stretch; salt; finish fresh.</text>
+</g>
+<g id="route-feta" data-item="FETA">
+<rect x="30" y="444" width="540" height="92" rx="13" fill="#ffffff" stroke="#dfc28d" stroke-width="2"/>
+<circle cx="58" cy="472" r="15" fill="#f0c96d"/>
+<text x="58" y="477" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="#3d2c1e">3</text>
+<text x="82" y="477" font-family="system-ui,sans-serif" font-size="17" font-weight="700" fill="#3d2c1e">Feta</text>
+<text x="52" y="503" font-family="system-ui,sans-serif" font-size="12.5" fill="#5d4a38">Two Sheep and one Goat milk; brine; press and collect immediately.</text>
+</g>
+<g id="route-halloumi" data-item="HALLOUMI">
+<rect x="605" y="444" width="540" height="92" rx="13" fill="#ffffff" stroke="#dfc28d" stroke-width="2"/>
+<circle cx="633" cy="472" r="15" fill="#f0c96d"/>
+<text x="633" y="477" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="#3d2c1e">4</text>
+<text x="657" y="477" font-family="system-ui,sans-serif" font-size="17" font-weight="700" fill="#3d2c1e">Halloumi</text>
+<text x="627" y="503" font-family="system-ui,sans-serif" font-size="12.5" fill="#5d4a38">Two Goat and one Sheep milk; second-boil in whey; salt; finish fresh.</text>
+</g>
+<g id="route-cheddar" data-item="CHEDDAR">
+<rect x="30" y="556" width="540" height="92" rx="13" fill="#ffffff" stroke="#dfc28d" stroke-width="2"/>
+<circle cx="58" cy="584" r="15" fill="#f0c96d"/>
+<text x="58" y="589" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="#3d2c1e">5</text>
+<text x="82" y="589" font-family="system-ui,sans-serif" font-size="17" font-weight="700" fill="#3d2c1e">Cheddar</text>
+<text x="52" y="615" font-family="system-ui,sans-serif" font-size="12.5" fill="#5d4a38">Temperate Cow milk; salt; press; age 2–4 days in a cool or temperate</text>
+<text x="52" y="633" font-family="system-ui,sans-serif" font-size="12.5" fill="#5d4a38">cellar.</text>
+</g>
+<g id="route-gouda" data-item="GOUDA">
+<rect x="605" y="556" width="540" height="92" rx="13" fill="#ffffff" stroke="#dfc28d" stroke-width="2"/>
+<circle cx="633" cy="584" r="15" fill="#f0c96d"/>
+<text x="633" y="589" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="#3d2c1e">6</text>
+<text x="657" y="589" font-family="system-ui,sans-serif" font-size="17" font-weight="700" fill="#3d2c1e">Gouda</text>
+<text x="627" y="615" font-family="system-ui,sans-serif" font-size="12.5" fill="#5d4a38">Temperate Cow milk; water-wash; brine; press; age 2–4 days in a temperate</text>
+<text x="627" y="633" font-family="system-ui,sans-serif" font-size="12.5" fill="#5d4a38">cellar.</text>
+</g>
+<g id="route-brie" data-item="BRIE">
+<rect x="30" y="668" width="540" height="92" rx="13" fill="#ffffff" stroke="#dfc28d" stroke-width="2"/>
+<circle cx="58" cy="696" r="15" fill="#f0c96d"/>
+<text x="58" y="701" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="#3d2c1e">7</text>
+<text x="82" y="701" font-family="system-ui,sans-serif" font-size="17" font-weight="700" fill="#3d2c1e">Brie</text>
+<text x="52" y="727" font-family="system-ui,sans-serif" font-size="12.5" fill="#5d4a38">Temperate Cow milk; salt; press; age 1–2 days in a cool humid cellar.</text>
+</g>
+<g id="route-emmental" data-item="EMMENTAL">
+<rect x="605" y="668" width="540" height="92" rx="13" fill="#ffffff" stroke="#dfc28d" stroke-width="2"/>
+<circle cx="633" cy="696" r="15" fill="#f0c96d"/>
+<text x="633" y="701" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="#3d2c1e">8</text>
+<text x="657" y="701" font-family="system-ui,sans-serif" font-size="17" font-weight="700" fill="#3d2c1e">Emmental</text>
+<text x="627" y="727" font-family="system-ui,sans-serif" font-size="12.5" fill="#5d4a38">Warm Cow milk; salt; press; age 2–4 days in a warm cellar.</text>
+</g>
+<g id="route-roquefort-style-blue" data-item="ROQUEFORT_STYLE_BLUE">
+<rect x="30" y="780" width="540" height="92" rx="13" fill="#ffffff" stroke="#dfc28d" stroke-width="2"/>
+<circle cx="58" cy="808" r="15" fill="#f0c96d"/>
+<text x="58" y="813" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="#3d2c1e">9</text>
+<text x="82" y="813" font-family="system-ui,sans-serif" font-size="17" font-weight="700" fill="#3d2c1e">Roquefort-style Blue</text>
+<text x="52" y="839" font-family="system-ui,sans-serif" font-size="12.5" fill="#5d4a38">Sheep milk; salt; press; age 4–6 days in a cool humid cellar.</text>
+</g>
+<g id="route-manchego" data-item="MANCHEGO">
+<rect x="605" y="780" width="540" height="92" rx="13" fill="#ffffff" stroke="#dfc28d" stroke-width="2"/>
+<circle cx="633" cy="808" r="15" fill="#f0c96d"/>
+<text x="633" y="813" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="#3d2c1e">10</text>
+<text x="657" y="813" font-family="system-ui,sans-serif" font-size="17" font-weight="700" fill="#3d2c1e">Manchego</text>
+<text x="627" y="839" font-family="system-ui,sans-serif" font-size="12.5" fill="#5d4a38">Sheep milk; salt; press; age 4–6 days in a dry cellar.</text>
+</g>
+<g id="route-parmesan-style" data-item="PARMESAN_STYLE">
+<rect x="30" y="892" width="540" height="92" rx="13" fill="#ffffff" stroke="#dfc28d" stroke-width="2"/>
+<circle cx="58" cy="920" r="15" fill="#f0c96d"/>
+<text x="58" y="925" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="#3d2c1e">11</text>
+<text x="82" y="925" font-family="system-ui,sans-serif" font-size="17" font-weight="700" fill="#3d2c1e">Parmesan-style</text>
+<text x="52" y="951" font-family="system-ui,sans-serif" font-size="12.5" fill="#5d4a38">Temperate Cow milk; second-boil; brine; press; age at least 6 days in a</text>
+<text x="52" y="969" font-family="system-ui,sans-serif" font-size="12.5" fill="#5d4a38">dry cellar.</text>
+</g>
+<g id="route-provolone-style" data-item="PROVOLONE_STYLE">
+<rect x="605" y="892" width="540" height="92" rx="13" fill="#ffffff" stroke="#dfc28d" stroke-width="2"/>
+<circle cx="633" cy="920" r="15" fill="#f0c96d"/>
+<text x="633" y="925" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="#3d2c1e">12</text>
+<text x="657" y="925" font-family="system-ui,sans-serif" font-size="17" font-weight="700" fill="#3d2c1e">Provolone-style</text>
+<text x="627" y="951" font-family="system-ui,sans-serif" font-size="12.5" fill="#5d4a38">Temperate Cow milk; second-boil; salt; press; age 2–4 days in a warm dry</text>
+<text x="627" y="969" font-family="system-ui,sans-serif" font-size="12.5" fill="#5d4a38">cellar.</text>
+</g>
+<g id="route-crottin-style-goat" data-item="CROTTIN_STYLE_GOAT">
+<rect x="30" y="1004" width="540" height="92" rx="13" fill="#ffffff" stroke="#dfc28d" stroke-width="2"/>
+<circle cx="58" cy="1032" r="15" fill="#f0c96d"/>
+<text x="58" y="1037" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="#3d2c1e">13</text>
+<text x="82" y="1037" font-family="system-ui,sans-serif" font-size="17" font-weight="700" fill="#3d2c1e">Crottin-style Goat Cheese</text>
+<text x="52" y="1063" font-family="system-ui,sans-serif" font-size="12.5" fill="#5d4a38">Goat milk; salt; press; age 1–2 days in a cool dry cellar.</text>
+</g>
+<g id="route-gorgonzola-style-blue" data-item="GORGONZOLA_STYLE_BLUE">
+<rect x="605" y="1004" width="540" height="92" rx="13" fill="#ffffff" stroke="#dfc28d" stroke-width="2"/>
+<circle cx="633" cy="1032" r="15" fill="#f0c96d"/>
+<text x="633" y="1037" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="#3d2c1e">14</text>
+<text x="657" y="1037" font-family="system-ui,sans-serif" font-size="17" font-weight="700" fill="#3d2c1e">Gorgonzola-style Blue</text>
+<text x="627" y="1063" font-family="system-ui,sans-serif" font-size="12.5" fill="#5d4a38">Temperate Cow milk; salt; press; age 4–6 days in a cool humid cellar.</text>
+</g>
+<g id="route-maroilles-style-washed-rind" data-item="MAROILLES_STYLE_WASHED_RIND">
+<rect x="30" y="1116" width="540" height="92" rx="13" fill="#ffffff" stroke="#dfc28d" stroke-width="2"/>
+<circle cx="58" cy="1144" r="15" fill="#f0c96d"/>
+<text x="58" y="1149" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="#3d2c1e">15</text>
+<text x="82" y="1149" font-family="system-ui,sans-serif" font-size="17" font-weight="700" fill="#3d2c1e">Maroilles-style Washed Rind</text>
+<text x="52" y="1175" font-family="system-ui,sans-serif" font-size="12.5" fill="#5d4a38">Temperate Cow milk; brine; press; age 2–4 days in a temperate humid</text>
+<text x="52" y="1193" font-family="system-ui,sans-serif" font-size="12.5" fill="#5d4a38">cellar.</text>
+</g>
+<g id="route-casu-martzu" data-item="CASU_MARTZU">
+<rect x="605" y="1116" width="540" height="92" rx="13" fill="#ffffff" stroke="#dfc28d" stroke-width="2"/>
+<circle cx="633" cy="1144" r="15" fill="#f0c96d"/>
+<text x="633" y="1149" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="#3d2c1e">16</text>
+<text x="657" y="1149" font-family="system-ui,sans-serif" font-size="17" font-weight="700" fill="#3d2c1e">Casu Martzu</text>
+<text x="627" y="1175" font-family="system-ui,sans-serif" font-size="12.5" fill="#5d4a38">Sheep milk; salt; press; age six warm days beside a level 6+ composter.</text>
+</g>
+<rect x="28" y="1248" width="1144" height="2" fill="#ead5ae"/>
+<text x="30" y="1286" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#9a6938">DIRECT WHEY ROUTES</text>
+<text x="1170" y="1286" text-anchor="end" font-family="system-ui,sans-serif" font-size="13" fill="#72563c">Use the whey left by every curd batch</text>
+<g id="route-ricotta" data-item="RICOTTA">
+<rect x="30" y="1306" width="540" height="92" rx="13" fill="#fff7e3" stroke="#c49256" stroke-width="2"/>
+<text x="52" y="1339" font-family="system-ui,sans-serif" font-size="17" font-weight="700" fill="#3d2c1e">Ricotta</text>
+<text x="52" y="1365" font-family="system-ui,sans-serif" font-size="12.5" fill="#5d4a38">Reheat three whey with lemon or vinegar into fresh Ricotta</text>
+</g>
+<g id="route-brunost" data-item="BRUNOST">
+<rect x="605" y="1306" width="540" height="92" rx="13" fill="#fff7e3" stroke="#c49256" stroke-width="2"/>
+<text x="627" y="1339" font-family="system-ui,sans-serif" font-size="17" font-weight="700" fill="#3d2c1e">Brunost</text>
+<text x="627" y="1365" font-family="system-ui,sans-serif" font-size="12.5" fill="#5d4a38">Slowly reduce three whey with Heavy Cream into Brunost</text>
+</g>
+<text x="600" y="1416" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#72563c">Affinity routes reward experimentation; direct whey routes turn the useful byproduct into fresh cheese.</text>
+</svg>
