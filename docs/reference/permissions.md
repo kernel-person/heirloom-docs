@@ -7,6 +7,7 @@
 | `heirloom.use` | true | Basic access |
 | `heirloom.cookbook` | true | Recipe book command |
 | `heirloom.recipes` | true | Recipe browser and search |
+| `heirloom.tutorial` | true | Private interactive station lessons |
 | `heirloom.advancements` | true | Advancement GUI |
 | `heirloom.favourite` | true | Favourite food GUI |
 | `heirloom.mastery` | true | Mastery GUI |
@@ -32,5 +33,6 @@
 | --- | --- | --- |
 | `heirloom.distillery.use` | true | Distillery commands and menus |
 | `heirloom.distillery.admin` | op | Distillery admin tools |
+| `heirloom.crop.grape` | true | Plant Distillery grape crops |
 | `heirloom.cafe.use` | true | Cafe commands |
 | `heirloom.cafe.admin` | op | Cafe item give |

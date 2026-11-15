@@ -8,6 +8,7 @@
 | `/hl help` | Help | `heirloom.use` |
 | `/hl cookbook` | Give recipe book | `heirloom.cookbook` |
 | `/hl recipes` | Recipe browser | `heirloom.recipes` |
+| `/hl tutorial [lesson\|stop]` | Private interactive station lessons | `heirloom.tutorial` |
 | `/hl search <query>` | Recipe search | `heirloom.recipes` |
 | `/hl advancements` | Advancement progress | `heirloom.advancements` |
 | `/hl favourite` | Favourite food GUI | `heirloom.favourite` |

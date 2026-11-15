@@ -11,7 +11,7 @@ from pathlib import Path
 
 GENERATOR = Path(__file__).with_name("generate_reference_pages.py")
 DOCS_ROOT = GENERATOR.parents[1]
-PLUGIN_ROOT = DOCS_ROOT.parent / "foodplugin"
+PLUGIN_ROOT = Path(os.environ.get("HEIRLOOM_PLUGIN_ROOT", DOCS_ROOT.parent / "foodplugin")).resolve()
 
 
 def load_generator(temp_docs: Path):
@@ -114,6 +114,37 @@ def removed_visual_packs_do_not_leave_public_preview_files() -> None:
         assert not stale.exists()
 
 
+def orchard_draft_heads_remain_player_head_icons() -> None:
+    with tempfile.TemporaryDirectory() as tmp:
+        temp_docs = Path(tmp)
+        generator = load_generator(temp_docs)
+        for item_id in ("ORCHARD_GIN", "ORCHARD_SWEET_VERMOUTH", "ORCHARD_RED_BITTER_APERITIF",
+                        "ORCHARD_AROMATIC_BITTERS", "ORCHARD_BOULEVARDIER", "ORCHARD_RUM_OLD_FASHIONED"):
+            seed_cached_icon(temp_docs, item_id.lower().replace("_", "-"))
+            item = generator.ITEM_BY_ID[item_id]
+            generator.ensure_custom_icon(item, fetch_icons=False, use_visual_pack_icons=False)
+            entry = generator.ICON_MANIFEST[item_id]
+            assert entry["source_kind"] == "player_head_texture", (item_id, entry)
+            assert entry["source_url"] == item["texture"], item_id
+            assert entry["status"] == "ok", item_id
+
+
+def juice_model_uses_tinted_lingering_bottle() -> None:
+    with tempfile.TemporaryDirectory() as tmp:
+        temp_docs = Path(tmp)
+        generator = load_generator(temp_docs)
+        folder = temp_docs / "docs/images/items/minecraft"
+        folder.mkdir(parents=True)
+        generator.write_png_rgba(folder / "lingering-potion.png", 1, 1, [(0, 0, 0, 0)])
+        generator.write_png_rgba(folder / "potion-overlay.png", 1, 1, [(255, 255, 255, 255)])
+        generator.ensure_custom_icon({"id": "TEST_JUICE", "base_material": "POTION",
+                                      "item_model": "minecraft:lingering_potion", "color": "#FF503C"}, False)
+        entry = generator.ICON_MANIFEST["TEST_JUICE"]
+        assert entry["source_kind"] == "vanilla_item_model", entry
+        width, height, pixels = generator.read_png_rgba((temp_docs / "docs" / entry["path"]).read_bytes())
+        assert (width, height, pixels) == (1, 1, [(255, 80, 60, 255)])
+
+
 def main() -> int:
     assert not (PLUGIN_ROOT / "packs/Heirloom-Cafe-Visual-Pack-v1.0.0").exists()
     assert not (PLUGIN_ROOT / "packs/Heirloom-Cafe-Visual-Pack-v1.0.0.zip").exists()
@@ -132,6 +163,8 @@ def main() -> int:
     assert asian_entry["_corner"] == [255, 253, 245, 255], asian_entry
     stale_player_head_source_refreshes_when_texture_changes()
     removed_visual_packs_do_not_leave_public_preview_files()
+    orchard_draft_heads_remain_player_head_icons()
+    juice_model_uses_tinted_lingering_bottle()
     return 0
 
 

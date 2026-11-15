@@ -9,6 +9,7 @@ Some Heirloom recipes are deliberately chained. A station result can stay on the
 - Corn -> cornmeal -> taco shell and related recipes.
 - Coffee cherry -> light beans -> medium beans -> dark beans -> espresso drinks.
 - Green tea leaves -> dried green tea -> chance for matcha powder -> matcha latte.
+- Mixology spirits -> liqueurs, Gin, Sweet Vermouth, Red Bitter Aperitif or Aromatic Bitters -> shaken cocktails at the Mixology Table. Coffee Liqueur requires Cafe; Rum does not.
 
 ## How To Explore Chains In Game
 

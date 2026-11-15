@@ -31,7 +31,7 @@ In bundled data, honey pancakes add honey naming, quality, and bottle return beh
 | `NOURISHING` | Saturation III for 5 seconds |
 | `HEALING` | Instant Health II |
 | `AFFINITY` | If cooked by another player, Regeneration I for 10 seconds; Regeneration II if it is also your favourite food |
-| `SOBERING` | If Distillery is loaded and inebriation is enabled, drains drunkenness by the configured amount, default 15 |
+| `SOBERING` | If Distillery is loaded and inebriation is enabled, drains drunkenness by the configured amount, default 0.6‰, once per consumed serving |
 
 ## What Players See
 

@@ -1,10 +1,53 @@
 # Visual ID Reference
 
-`visual_id` is the logical name Heirloom asks visual providers to resolve. Nexo and ItemsAdder can both provide the same logical visual without changing recipes.
+`visual_id` is the logical name Heirloom asks visual providers to resolve. Nexo, ItemsAdder, CraftEngine, and MMOItems can provide the same logical visual without changing recipes.
 
 | Item | Visual ID | Source |
 | --- | --- | --- |
 | `AMERICANO` | AMERICANO | <span class="hl-source-badge" title="Cafe"><img class="hl-source-logo" src="../../images/sources/cafe.png" alt="Cafe"></span> |
+| `AMERICAN_BANANA_MILKSHAKE` | AMERICAN_BANANA_MILKSHAKE | Heirloom American Food Pack (Orchard compatibility) |
+| `AMERICAN_BBQ_CHEESE_FRIES` | AMERICAN_BBQ_CHEESE_FRIES | <span class="hl-source-badge" title="Heirloom American Food Pack"><img class="hl-source-logo" src="../../images/sources/heirloom-american-food-pack.png" alt="Heirloom American Food Pack"></span> |
+| `AMERICAN_BBQ_CHICKEN_WINGS` | AMERICAN_BBQ_CHICKEN_WINGS | <span class="hl-source-badge" title="Heirloom American Food Pack"><img class="hl-source-logo" src="../../images/sources/heirloom-american-food-pack.png" alt="Heirloom American Food Pack"></span> |
+| `AMERICAN_BBQ_PULLED_PORK` | AMERICAN_BBQ_PULLED_PORK | <span class="hl-source-badge" title="Heirloom American Food Pack"><img class="hl-source-logo" src="../../images/sources/heirloom-american-food-pack.png" alt="Heirloom American Food Pack"></span> |
+| `AMERICAN_BBQ_RIBS` | AMERICAN_BBQ_RIBS | <span class="hl-source-badge" title="Heirloom American Food Pack"><img class="hl-source-logo" src="../../images/sources/heirloom-american-food-pack.png" alt="Heirloom American Food Pack"></span> |
+| `AMERICAN_BBQ_SAUCE` | AMERICAN_BBQ_SAUCE | <span class="hl-source-badge" title="Heirloom American Food Pack"><img class="hl-source-logo" src="../../images/sources/heirloom-american-food-pack.png" alt="Heirloom American Food Pack"></span> |
+| `AMERICAN_BBQ_SLOPPY_JOE` | AMERICAN_BBQ_SLOPPY_JOE | <span class="hl-source-badge" title="Heirloom American Food Pack"><img class="hl-source-logo" src="../../images/sources/heirloom-american-food-pack.png" alt="Heirloom American Food Pack"></span> |
+| `AMERICAN_BERRY_CHEESECAKE` | AMERICAN_BERRY_CHEESECAKE | <span class="hl-source-badge" title="Heirloom American Food Pack"><img class="hl-source-logo" src="../../images/sources/heirloom-american-food-pack.png" alt="Heirloom American Food Pack"></span> |
+| `AMERICAN_BLT_SANDWICH` | AMERICAN_BLT_SANDWICH | <span class="hl-source-badge" title="Heirloom American Food Pack"><img class="hl-source-logo" src="../../images/sources/heirloom-american-food-pack.png" alt="Heirloom American Food Pack"></span> |
+| `AMERICAN_BROWNIE` | AMERICAN_BROWNIE | <span class="hl-source-badge" title="Heirloom American Food Pack"><img class="hl-source-logo" src="../../images/sources/heirloom-american-food-pack.png" alt="Heirloom American Food Pack"></span> |
+| `AMERICAN_BUTTERED_CORN_ON_THE_COB` | AMERICAN_BUTTERED_CORN_ON_THE_COB | <span class="hl-source-badge" title="Heirloom American Food Pack"><img class="hl-source-logo" src="../../images/sources/heirloom-american-food-pack.png" alt="Heirloom American Food Pack"></span> |
+| `AMERICAN_CHICKEN_AND_WAFFLES` | AMERICAN_CHICKEN_AND_WAFFLES | <span class="hl-source-badge" title="Heirloom American Food Pack"><img class="hl-source-logo" src="../../images/sources/heirloom-american-food-pack.png" alt="Heirloom American Food Pack"></span> |
+| `AMERICAN_CHICKEN_POT_PIE` | AMERICAN_CHICKEN_POT_PIE | <span class="hl-source-badge" title="Heirloom American Food Pack"><img class="hl-source-logo" src="../../images/sources/heirloom-american-food-pack.png" alt="Heirloom American Food Pack"></span> |
+| `AMERICAN_CHICKEN_TENDERS` | AMERICAN_CHICKEN_TENDERS | <span class="hl-source-badge" title="Heirloom American Food Pack"><img class="hl-source-logo" src="../../images/sources/heirloom-american-food-pack.png" alt="Heirloom American Food Pack"></span> |
+| `AMERICAN_CHOCOLATE_CHEESECAKE` | AMERICAN_CHOCOLATE_CHEESECAKE | <span class="hl-source-badge" title="Heirloom American Food Pack"><img class="hl-source-logo" src="../../images/sources/heirloom-american-food-pack.png" alt="Heirloom American Food Pack"></span> |
+| `AMERICAN_CHOCOLATE_MILKSHAKE` | AMERICAN_CHOCOLATE_MILKSHAKE | <span class="hl-source-badge" title="Heirloom American Food Pack"><img class="hl-source-logo" src="../../images/sources/heirloom-american-food-pack.png" alt="Heirloom American Food Pack"></span> |
+| `AMERICAN_CHORUS_MILKSHAKE` | AMERICAN_CHORUS_MILKSHAKE | <span class="hl-source-badge" title="Heirloom American Food Pack"><img class="hl-source-logo" src="../../images/sources/heirloom-american-food-pack.png" alt="Heirloom American Food Pack"></span> |
+| `AMERICAN_CLUB_SANDWICH` | AMERICAN_CLUB_SANDWICH | <span class="hl-source-badge" title="Heirloom American Food Pack"><img class="hl-source-logo" src="../../images/sources/heirloom-american-food-pack.png" alt="Heirloom American Food Pack"></span> |
+| `AMERICAN_COBB_SALAD` | AMERICAN_COBB_SALAD | <span class="hl-source-badge" title="Heirloom American Food Pack"><img class="hl-source-logo" src="../../images/sources/heirloom-american-food-pack.png" alt="Heirloom American Food Pack"></span> |
+| `AMERICAN_COLA` | AMERICAN_COLA | <span class="hl-source-badge" title="Heirloom American Food Pack"><img class="hl-source-logo" src="../../images/sources/heirloom-american-food-pack.png" alt="Heirloom American Food Pack"></span> |
+| `AMERICAN_COLESLAW` | AMERICAN_COLESLAW | <span class="hl-source-badge" title="Heirloom American Food Pack"><img class="hl-source-logo" src="../../images/sources/heirloom-american-food-pack.png" alt="Heirloom American Food Pack"></span> |
+| `AMERICAN_CORNBREAD` | AMERICAN_CORNBREAD | <span class="hl-source-badge" title="Heirloom American Food Pack"><img class="hl-source-logo" src="../../images/sources/heirloom-american-food-pack.png" alt="Heirloom American Food Pack"></span> |
+| `AMERICAN_CORN_DOG` | AMERICAN_CORN_DOG | <span class="hl-source-badge" title="Heirloom American Food Pack"><img class="hl-source-logo" src="../../images/sources/heirloom-american-food-pack.png" alt="Heirloom American Food Pack"></span> |
+| `AMERICAN_EGG_SALAD_SANDWICH` | AMERICAN_EGG_SALAD_SANDWICH | <span class="hl-source-badge" title="Heirloom American Food Pack"><img class="hl-source-logo" src="../../images/sources/heirloom-american-food-pack.png" alt="Heirloom American Food Pack"></span> |
+| `AMERICAN_GLOW_BERRY_MILKSHAKE` | AMERICAN_GLOW_BERRY_MILKSHAKE | <span class="hl-source-badge" title="Heirloom American Food Pack"><img class="hl-source-logo" src="../../images/sources/heirloom-american-food-pack.png" alt="Heirloom American Food Pack"></span> |
+| `AMERICAN_HONEY_CARAMEL_MILKSHAKE` | AMERICAN_HONEY_CARAMEL_MILKSHAKE | <span class="hl-source-badge" title="Heirloom American Food Pack"><img class="hl-source-logo" src="../../images/sources/heirloom-american-food-pack.png" alt="Heirloom American Food Pack"></span> |
+| `AMERICAN_LEMON_MILKSHAKE` | AMERICAN_LEMON_MILKSHAKE | Heirloom American Food Pack (Orchard compatibility) |
+| `AMERICAN_LEMON_SODA` | AMERICAN_LEMON_SODA | Heirloom American Food Pack (Orchard compatibility) |
+| `AMERICAN_LOADED_BAKED_POTATO` | AMERICAN_LOADED_BAKED_POTATO | <span class="hl-source-badge" title="Heirloom American Food Pack"><img class="hl-source-logo" src="../../images/sources/heirloom-american-food-pack.png" alt="Heirloom American Food Pack"></span> |
+| `AMERICAN_MAYONNAISE` | AMERICAN_MAYONNAISE | <span class="hl-source-badge" title="Heirloom American Food Pack"><img class="hl-source-logo" src="../../images/sources/heirloom-american-food-pack.png" alt="Heirloom American Food Pack"></span> |
+| `AMERICAN_MEATLOAF` | AMERICAN_MEATLOAF | <span class="hl-source-badge" title="Heirloom American Food Pack"><img class="hl-source-logo" src="../../images/sources/heirloom-american-food-pack.png" alt="Heirloom American Food Pack"></span> |
+| `AMERICAN_MELON_MILKSHAKE` | AMERICAN_MELON_MILKSHAKE | <span class="hl-source-badge" title="Heirloom American Food Pack"><img class="hl-source-logo" src="../../images/sources/heirloom-american-food-pack.png" alt="Heirloom American Food Pack"></span> |
+| `AMERICAN_ORANGE_CREAMSICLE_SHAKE` | AMERICAN_ORANGE_CREAMSICLE_SHAKE | <span class="hl-source-badge" title="Heirloom American Food Pack"><img class="hl-source-logo" src="../../images/sources/heirloom-american-food-pack.png" alt="Heirloom American Food Pack"></span> |
+| `AMERICAN_ORANGE_SODA` | AMERICAN_ORANGE_SODA | <span class="hl-source-badge" title="Heirloom American Food Pack"><img class="hl-source-logo" src="../../images/sources/heirloom-american-food-pack.png" alt="Heirloom American Food Pack"></span> |
+| `AMERICAN_PHILLY_CHEESESTEAK` | AMERICAN_PHILLY_CHEESESTEAK | <span class="hl-source-badge" title="Heirloom American Food Pack"><img class="hl-source-logo" src="../../images/sources/heirloom-american-food-pack.png" alt="Heirloom American Food Pack"></span> |
+| `AMERICAN_POTATO_SALAD` | AMERICAN_POTATO_SALAD | <span class="hl-source-badge" title="Heirloom American Food Pack"><img class="hl-source-logo" src="../../images/sources/heirloom-american-food-pack.png" alt="Heirloom American Food Pack"></span> |
+| `AMERICAN_RED_VELVET_MILKSHAKE` | AMERICAN_RED_VELVET_MILKSHAKE | <span class="hl-source-badge" title="Heirloom American Food Pack"><img class="hl-source-logo" src="../../images/sources/heirloom-american-food-pack.png" alt="Heirloom American Food Pack"></span> |
+| `AMERICAN_ROOT_BEER` | AMERICAN_ROOT_BEER | <span class="hl-source-badge" title="Heirloom American Food Pack"><img class="hl-source-logo" src="../../images/sources/heirloom-american-food-pack.png" alt="Heirloom American Food Pack"></span> |
+| `AMERICAN_ROOT_BEER_FLOAT` | AMERICAN_ROOT_BEER_FLOAT | <span class="hl-source-badge" title="Heirloom American Food Pack"><img class="hl-source-logo" src="../../images/sources/heirloom-american-food-pack.png" alt="Heirloom American Food Pack"></span> |
+| `AMERICAN_SMORE` | AMERICAN_SMORE | <span class="hl-source-badge" title="Heirloom American Food Pack"><img class="hl-source-logo" src="../../images/sources/heirloom-american-food-pack.png" alt="Heirloom American Food Pack"></span> |
+| `AMERICAN_STRAWBERRY_MILKSHAKE` | AMERICAN_STRAWBERRY_MILKSHAKE | <span class="hl-source-badge" title="Heirloom American Food Pack"><img class="hl-source-logo" src="../../images/sources/heirloom-american-food-pack.png" alt="Heirloom American Food Pack"></span> |
+| `AMERICAN_VANILLA_CHEESECAKE` | AMERICAN_VANILLA_CHEESECAKE | <span class="hl-source-badge" title="Heirloom American Food Pack"><img class="hl-source-logo" src="../../images/sources/heirloom-american-food-pack.png" alt="Heirloom American Food Pack"></span> |
+| `AMERICAN_VANILLA_MILKSHAKE` | AMERICAN_VANILLA_MILKSHAKE | <span class="hl-source-badge" title="Heirloom American Food Pack"><img class="hl-source-logo" src="../../images/sources/heirloom-american-food-pack.png" alt="Heirloom American Food Pack"></span> |
 | `ASIAN_BOBA_TEA` | ASIAN_BOBA_TEA | <span class="hl-source-badge" title="Heirloom Asian Food Pack"><img class="hl-source-logo" src="../../images/sources/heirloom-asian-food-pack.png" alt="Heirloom Asian Food Pack"></span> |
 | `ASIAN_CHINESE_FRIED_RICE` | ASIAN_CHINESE_FRIED_RICE | <span class="hl-source-badge" title="Heirloom Asian Food Pack"><img class="hl-source-logo" src="../../images/sources/heirloom-asian-food-pack.png" alt="Heirloom Asian Food Pack"></span> |
 | `ASIAN_DANGO` | ASIAN_DANGO | <span class="hl-source-badge" title="Heirloom Asian Food Pack"><img class="hl-source-logo" src="../../images/sources/heirloom-asian-food-pack.png" alt="Heirloom Asian Food Pack"></span> |
@@ -52,26 +95,128 @@
 | `ASIAN_TERIYAKI_BOWL` | ASIAN_TERIYAKI_BOWL | <span class="hl-source-badge" title="Heirloom Asian Food Pack"><img class="hl-source-logo" src="../../images/sources/heirloom-asian-food-pack.png" alt="Heirloom Asian Food Pack"></span> |
 | `ASIAN_TONKOTSU_RAMEN` | ASIAN_TONKOTSU_RAMEN | <span class="hl-source-badge" title="Heirloom Asian Food Pack"><img class="hl-source-logo" src="../../images/sources/heirloom-asian-food-pack.png" alt="Heirloom Asian Food Pack"></span> |
 | `ASIAN_UDON` | ASIAN_UDON | <span class="hl-source-badge" title="Heirloom Asian Food Pack"><img class="hl-source-logo" src="../../images/sources/heirloom-asian-food-pack.png" alt="Heirloom Asian Food Pack"></span> |
+| `AVOCADO` | AVOCADO | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `BANANAS` | BANANAS | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `BANANA_PANCAKES` | BANANA_PANCAKES | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `BANANA_SPLIT_SUNDAE` | BANANA_SPLIT_SUNDAE | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
 | `BLACK_TEA` | BLACK_TEA | <span class="hl-source-badge" title="Cafe"><img class="hl-source-logo" src="../../images/sources/cafe.png" alt="Cafe"></span> |
 | `BLACK_TEA_LEAVES` | BLACK_TEA_LEAVES | <span class="hl-source-badge" title="Cafe"><img class="hl-source-logo" src="../../images/sources/cafe.png" alt="Cafe"></span> |
 | `BOBA_TEA` | BOBA_TEA | <span class="hl-source-badge" title="Cafe"><img class="hl-source-logo" src="../../images/sources/cafe.png" alt="Cafe"></span> |
+| `BRIE` | BRIE | <span class="hl-source-badge" title="Pasture"><img class="hl-source-logo" src="../../images/sources/core.png" alt="Pasture"></span> |
+| `BRINE` | BRINE | <span class="hl-source-badge" title="Pasture"><img class="hl-source-logo" src="../../images/sources/core.png" alt="Pasture"></span> |
+| `BRUNOST` | BRUNOST | <span class="hl-source-badge" title="Pasture"><img class="hl-source-logo" src="../../images/sources/core.png" alt="Pasture"></span> |
+| `BUTTERMILK` | BUTTERMILK | <span class="hl-source-badge" title="Pasture"><img class="hl-source-logo" src="../../images/sources/core.png" alt="Pasture"></span> |
 | `CAPPUCCINO` | CAPPUCCINO | <span class="hl-source-badge" title="Cafe"><img class="hl-source-logo" src="../../images/sources/cafe.png" alt="Cafe"></span> |
+| `CASU_MARTZU` | CASU_MARTZU | <span class="hl-source-badge" title="Pasture"><img class="hl-source-logo" src="../../images/sources/core.png" alt="Pasture"></span> |
+| `CHEDDAR` | CHEDDAR | <span class="hl-source-badge" title="Pasture"><img class="hl-source-logo" src="../../images/sources/core.png" alt="Pasture"></span> |
+| `CHEESE_SAUSAGE` | CHEESE_SAUSAGE | <span class="hl-source-badge" title="Pasture"><img class="hl-source-logo" src="../../images/sources/core.png" alt="Pasture"></span> |
+| `COCONUT` | COCONUT | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `COCONUT_DRINK` | COCONUT_DRINK | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `COCONUT_MILK` | COCONUT_MILK | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
 | `COFFEE_BEANS_DARK` | COFFEE_BEANS_DARK | <span class="hl-source-badge" title="Cafe"><img class="hl-source-logo" src="../../images/sources/cafe.png" alt="Cafe"></span> |
 | `COFFEE_BEANS_LIGHT` | COFFEE_BEANS_LIGHT | <span class="hl-source-badge" title="Cafe"><img class="hl-source-logo" src="../../images/sources/cafe.png" alt="Cafe"></span> |
 | `COFFEE_BEANS_MEDIUM` | COFFEE_BEANS_MEDIUM | <span class="hl-source-badge" title="Cafe"><img class="hl-source-logo" src="../../images/sources/cafe.png" alt="Cafe"></span> |
 | `COFFEE_CHERRY` | COFFEE_CHERRY | <span class="hl-source-badge" title="Cafe"><img class="hl-source-logo" src="../../images/sources/cafe.png" alt="Cafe"></span> |
 | `COFFEE_DRINK` | ESPRESSO | <span class="hl-source-badge" title="Cafe"><img class="hl-source-logo" src="../../images/sources/cafe.png" alt="Cafe"></span> |
+| `CROTTIN_STYLE_GOAT` | CROTTIN_STYLE_GOAT | <span class="hl-source-badge" title="Pasture"><img class="hl-source-logo" src="../../images/sources/core.png" alt="Pasture"></span> |
 | `DRIED_GREEN_TEA` | DRIED_GREEN_TEA | <span class="hl-source-badge" title="Cafe"><img class="hl-source-logo" src="../../images/sources/cafe.png" alt="Cafe"></span> |
+| `EMMENTAL` | EMMENTAL | <span class="hl-source-badge" title="Pasture"><img class="hl-source-logo" src="../../images/sources/core.png" alt="Pasture"></span> |
 | `ESPRESSO` | ESPRESSO | <span class="hl-source-badge" title="Cafe"><img class="hl-source-logo" src="../../images/sources/cafe.png" alt="Cafe"></span> |
+| `FETA` | FETA | <span class="hl-source-badge" title="Pasture"><img class="hl-source-logo" src="../../images/sources/core.png" alt="Pasture"></span> |
 | `FLAT_WHITE` | FLAT_WHITE | <span class="hl-source-badge" title="Cafe"><img class="hl-source-logo" src="../../images/sources/cafe.png" alt="Cafe"></span> |
+| `FRENCH_FRIED_FROG_LEGS` | FRENCH_FRIED_FROG_LEGS | <span class="hl-source-badge" title="Pasture"><img class="hl-source-logo" src="../../images/sources/core.png" alt="Pasture"></span> |
+| `FRESH_CURDS` | FRESH_CURDS | <span class="hl-source-badge" title="Pasture"><img class="hl-source-logo" src="../../images/sources/core.png" alt="Pasture"></span> |
+| `GARLIC` | GARLIC | <span class="hl-source-badge" title="Pasture"><img class="hl-source-logo" src="../../images/sources/core.png" alt="Pasture"></span> |
+| `GARLIC_BREAD` | GARLIC_BREAD | <span class="hl-source-badge" title="Pasture"><img class="hl-source-logo" src="../../images/sources/core.png" alt="Pasture"></span> |
+| `GARLIC_PORK_SAUSAGE` | GARLIC_PORK_SAUSAGE | <span class="hl-source-badge" title="Pasture"><img class="hl-source-logo" src="../../images/sources/core.png" alt="Pasture"></span> |
+| `GHEE` | GHEE | <span class="hl-source-badge" title="Pasture"><img class="hl-source-logo" src="../../images/sources/core.png" alt="Pasture"></span> |
+| `GORGONZOLA_STYLE_BLUE` | GORGONZOLA_STYLE_BLUE | <span class="hl-source-badge" title="Pasture"><img class="hl-source-logo" src="../../images/sources/core.png" alt="Pasture"></span> |
+| `GOUDA` | GOUDA | <span class="hl-source-badge" title="Pasture"><img class="hl-source-logo" src="../../images/sources/core.png" alt="Pasture"></span> |
 | `GREEN_TEA` | GREEN_TEA | <span class="hl-source-badge" title="Cafe"><img class="hl-source-logo" src="../../images/sources/cafe.png" alt="Cafe"></span> |
+| `HALLOUMI` | HALLOUMI | <span class="hl-source-badge" title="Pasture"><img class="hl-source-logo" src="../../images/sources/core.png" alt="Pasture"></span> |
 | `HOT_COCOA` | HOT_COCOA | <span class="hl-source-badge" title="Cafe"><img class="hl-source-logo" src="../../images/sources/cafe.png" alt="Cafe"></span> |
+| `HOT_DOG` | HOT_DOG | <span class="hl-source-badge" title="Pasture"><img class="hl-source-logo" src="../../images/sources/core.png" alt="Pasture"></span> |
 | `ICED_COFFEE` | ICED_COFFEE | <span class="hl-source-badge" title="Cafe"><img class="hl-source-logo" src="../../images/sources/cafe.png" alt="Cafe"></span> |
 | `LATTE` | LATTE | <span class="hl-source-badge" title="Cafe"><img class="hl-source-logo" src="../../images/sources/cafe.png" alt="Cafe"></span> |
+| `LEMON` | LEMON | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `MANCHEGO` | MANCHEGO | <span class="hl-source-badge" title="Pasture"><img class="hl-source-logo" src="../../images/sources/core.png" alt="Pasture"></span> |
+| `MANGO` | MANGO | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `MAROILLES_STYLE_WASHED_RIND` | MAROILLES_STYLE_WASHED_RIND | <span class="hl-source-badge" title="Pasture"><img class="hl-source-logo" src="../../images/sources/core.png" alt="Pasture"></span> |
 | `MATCHA_LATTE` | MATCHA_LATTE | <span class="hl-source-badge" title="Cafe"><img class="hl-source-logo" src="../../images/sources/cafe.png" alt="Cafe"></span> |
 | `MATCHA_POWDER` | MATCHA_POWDER | <span class="hl-source-badge" title="Cafe"><img class="hl-source-logo" src="../../images/sources/cafe.png" alt="Cafe"></span> |
+| `MINCED_BEEF` | MINCED_BEEF | <span class="hl-source-badge" title="Pasture"><img class="hl-source-logo" src="../../images/sources/core.png" alt="Pasture"></span> |
+| `MINCED_GOAT` | MINCED_GOAT | <span class="hl-source-badge" title="Pasture"><img class="hl-source-logo" src="../../images/sources/core.png" alt="Pasture"></span> |
+| `MINCED_MUTTON` | MINCED_MUTTON | <span class="hl-source-badge" title="Pasture"><img class="hl-source-logo" src="../../images/sources/core.png" alt="Pasture"></span> |
+| `MINCED_PORK` | MINCED_PORK | <span class="hl-source-badge" title="Pasture"><img class="hl-source-logo" src="../../images/sources/core.png" alt="Pasture"></span> |
 | `MOCHA` | MOCHA | <span class="hl-source-badge" title="Cafe"><img class="hl-source-logo" src="../../images/sources/cafe.png" alt="Cafe"></span> |
+| `MOZZARELLA` | MOZZARELLA | <span class="hl-source-badge" title="Pasture"><img class="hl-source-logo" src="../../images/sources/core.png" alt="Pasture"></span> |
 | `MUFFIN` | MUFFIN | <span class="hl-source-badge" title="Cafe"><img class="hl-source-logo" src="../../images/sources/cafe.png" alt="Cafe"></span> |
 | `OAT_MILK` | OAT_MILK | <span class="hl-source-badge" title="Cafe"><img class="hl-source-logo" src="../../images/sources/cafe.png" alt="Cafe"></span> |
+| `ORANGE` | ORANGE | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `ORCHARD_ABSINTHE` | ORCHARD_ABSINTHE | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `ORCHARD_AMERICANO` | ORCHARD_AMERICANO | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `ORCHARD_AROMATIC_BITTERS` | ORCHARD_AROMATIC_BITTERS | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `ORCHARD_B52` | ORCHARD_B52 | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `ORCHARD_BEES_KNEES` | ORCHARD_BEES_KNEES | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `ORCHARD_BLACK_RUSSIAN` | ORCHARD_BLACK_RUSSIAN | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `ORCHARD_BLOODY_MARY` | ORCHARD_BLOODY_MARY | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `ORCHARD_BOULEVARDIER` | ORCHARD_BOULEVARDIER | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `ORCHARD_CLASSIC_DAIQUIRI` | ORCHARD_CLASSIC_DAIQUIRI | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `ORCHARD_COFFEE_LIQUEUR` | ORCHARD_COFFEE_LIQUEUR | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `ORCHARD_CORPSE_REVIVER_NO_2` | ORCHARD_CORPSE_REVIVER_NO_2 | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `ORCHARD_COSMOPOLITAN` | ORCHARD_COSMOPOLITAN | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `ORCHARD_DEATH_IN_THE_AFTERNOON` | ORCHARD_DEATH_IN_THE_AFTERNOON | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `ORCHARD_DRY_MARTINI` | ORCHARD_DRY_MARTINI | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `ORCHARD_ESPRESSO_MARTINI` | ORCHARD_ESPRESSO_MARTINI | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `ORCHARD_GARIBALDI` | ORCHARD_GARIBALDI | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `ORCHARD_GIN` | ORCHARD_GIN | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `ORCHARD_GIN_AND_TONIC` | ORCHARD_GIN_AND_TONIC | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `ORCHARD_GROVE_STARTER_PACKET` | ORCHARD_GROVE_STARTER_PACKET | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `ORCHARD_GUACAMOLE` | ORCHARD_GUACAMOLE | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `ORCHARD_IRISH_CREAM_LIQUEUR` | ORCHARD_IRISH_CREAM_LIQUEUR | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `ORCHARD_IRISH_CREAM_MILKSHAKE` | ORCHARD_IRISH_CREAM_MILKSHAKE | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `ORCHARD_JOHN_COLLINS` | ORCHARD_JOHN_COLLINS | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `ORCHARD_LONG_ISLAND_ICED_TEA` | ORCHARD_LONG_ISLAND_ICED_TEA | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `ORCHARD_MANHATTAN` | ORCHARD_MANHATTAN | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `ORCHARD_MARGARITA` | ORCHARD_MARGARITA | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `ORCHARD_MOJITO` | ORCHARD_MOJITO | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `ORCHARD_MUDSLIDE` | ORCHARD_MUDSLIDE | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `ORCHARD_NEGRONI` | ORCHARD_NEGRONI | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `ORCHARD_OLD_FASHIONED` | ORCHARD_OLD_FASHIONED | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `ORCHARD_ORANGE_CHICKEN` | ORCHARD_ORANGE_CHICKEN | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `ORCHARD_ORANGE_LIQUEUR` | ORCHARD_ORANGE_LIQUEUR | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `ORCHARD_RED_BITTER_APERITIF` | ORCHARD_RED_BITTER_APERITIF | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `ORCHARD_RUM` | ORCHARD_RUM | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `ORCHARD_RUM_OLD_FASHIONED` | ORCHARD_RUM_OLD_FASHIONED | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `ORCHARD_SAZERAC` | ORCHARD_SAZERAC | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `ORCHARD_SPARKLING_LEMONADE` | ORCHARD_SPARKLING_LEMONADE | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `ORCHARD_SWEET_VERMOUTH` | ORCHARD_SWEET_VERMOUTH | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `ORCHARD_TEQUILA` | ORCHARD_TEQUILA | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `ORCHARD_TROPICAL_STARTER_PACKET` | ORCHARD_TROPICAL_STARTER_PACKET | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `ORCHARD_VIRGIN_BANANA_DAIQUIRI` | ORCHARD_VIRGIN_BANANA_DAIQUIRI | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `ORCHARD_VIRGIN_MANGO_DAIQUIRI` | ORCHARD_VIRGIN_MANGO_DAIQUIRI | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `ORCHARD_VIRGIN_MOJITO` | ORCHARD_VIRGIN_MOJITO | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `ORCHARD_VODKA` | ORCHARD_VODKA | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `ORCHARD_WHISKEY` | ORCHARD_WHISKEY | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `ORCHARD_WHISKEY_SOUR` | ORCHARD_WHISKEY_SOUR | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `ORCHARD_WHITE_LADY` | ORCHARD_WHITE_LADY | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `ORCHARD_WHITE_RUSSIAN` | ORCHARD_WHITE_RUSSIAN | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `ORCHARD_YELLOW_COCONUT_CURRY` | ORCHARD_YELLOW_COCONUT_CURRY | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `PANEER` | PANEER | <span class="hl-source-badge" title="Pasture"><img class="hl-source-logo" src="../../images/sources/core.png" alt="Pasture"></span> |
+| `PARMESAN_STYLE` | PARMESAN_STYLE | <span class="hl-source-badge" title="Pasture"><img class="hl-source-logo" src="../../images/sources/core.png" alt="Pasture"></span> |
+| `PIG_CASINGS` | PIG_CASINGS | <span class="hl-source-badge" title="Pasture"><img class="hl-source-logo" src="../../images/sources/core.png" alt="Pasture"></span> |
+| `PINA_COLADA` | PINA_COLADA | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `PINEAPPLE` | PINEAPPLE | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `PLAIN_LINKS` | PLAIN_LINKS | <span class="hl-source-badge" title="Pasture"><img class="hl-source-logo" src="../../images/sources/core.png" alt="Pasture"></span> |
+| `PREPARED_CHEESE` | PREPARED_CHEESE | <span class="hl-source-badge" title="Pasture"><img class="hl-source-logo" src="../../images/sources/core.png" alt="Pasture"></span> |
+| `PROVOLONE_STYLE` | PROVOLONE_STYLE | <span class="hl-source-badge" title="Pasture"><img class="hl-source-logo" src="../../images/sources/core.png" alt="Pasture"></span> |
+| `RAW_FROG_LEGS` | RAW_FROG_LEGS | <span class="hl-source-badge" title="Pasture"><img class="hl-source-logo" src="../../images/sources/core.png" alt="Pasture"></span> |
+| `RICOTTA` | RICOTTA | <span class="hl-source-badge" title="Pasture"><img class="hl-source-logo" src="../../images/sources/core.png" alt="Pasture"></span> |
+| `ROQUEFORT_STYLE_BLUE` | ROQUEFORT_STYLE_BLUE | <span class="hl-source-badge" title="Pasture"><img class="hl-source-logo" src="../../images/sources/core.png" alt="Pasture"></span> |
+| `SWEDISH_POTATO_SAUSAGE` | SWEDISH_POTATO_SAUSAGE | <span class="hl-source-badge" title="Pasture"><img class="hl-source-logo" src="../../images/sources/core.png" alt="Pasture"></span> |
 | `SWEET_TEA` | SWEET_TEA | <span class="hl-source-badge" title="Cafe"><img class="hl-source-logo" src="../../images/sources/cafe.png" alt="Cafe"></span> |
 | `TEA_DRINK` | GREEN_TEA | <span class="hl-source-badge" title="Cafe"><img class="hl-source-logo" src="../../images/sources/cafe.png" alt="Cafe"></span> |
+| `TROPICAL_FRUIT_SALAD` | TROPICAL_FRUIT_SALAD | <span class="hl-source-badge" title="Heirloom Mixology"><img class="hl-source-logo" src="../../images/sources/mixology.png" alt="Heirloom Mixology"></span> |
+| `WHEY` | WHEY | <span class="hl-source-badge" title="Pasture"><img class="hl-source-logo" src="../../images/sources/core.png" alt="Pasture"></span> |
+| `YOGURT` | YOGURT | <span class="hl-source-badge" title="Pasture"><img class="hl-source-logo" src="../../images/sources/core.png" alt="Pasture"></span> |
+| `YOUNG_CHEESE_WHEEL` | YOUNG_CHEESE_WHEEL | <span class="hl-source-badge" title="Pasture"><img class="hl-source-logo" src="../../images/sources/core.png" alt="Pasture"></span> |

@@ -2,6 +2,10 @@
 
 Stations are built from normal blocks. Players interact with the station block, while Heirloom validates the supporting structure below or nearby.
 
+[Animated Kitchen](animated-kitchen.md) adds craftable furniture with moving parts for these stations. It is an optional installation; block-built stations continue to work.
+
+Use `/hl tutorial` for private, clickable building and cooking lessons when PacketEvents is installed. See [In-game Station Tutorials](../tutorials/station-tutorials.md).
+
 | Station | Build | Main Role |
 | --- | --- | --- |
 | Oven | Stone pressure plate on a smoker | Baking, roasting, drying, long heat chains |
@@ -10,6 +14,8 @@ Stations are built from normal blocks. Players interact with the station block, 
 | Cutting Board | Wooden pressure plate on any stripped block | Chopping, slicing, mincing, flour and prep items |
 | Frying Pan | Heavy weighted pressure plate on a furnace | Eggs, pancakes, fried meals, fast heat |
 | Barista Machine | Iron trapdoor above quartz stairs, with Cafe installed | Cafe drink assembly |
+| Mixology Table | Any wooden pressure plate on an iron block, with Heirloom Mixology installed | Liqueurs and shaken drinks |
+| Juicer | Upward-facing Dropper, clear Glass, any carpet; Heirloom Mixology enabled | Three produce items into two bottles |
 
 ## How To Think About Stations
 

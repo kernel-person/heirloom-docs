@@ -1,5 +1,5 @@
 site_name: Heirloom Wiki
-site_description: Wiki and server-owner manual for the Heirloom Minecraft cooking, gardening, Distillery, and Cafe plugins.
+site_description: Wiki and server-owner manual for Heirloom cooking, gardening, Distillery, Cafe, and Pasture.
 site_url: https://kernel-person.github.io/heirloom-docs/
 repo_url: https://github.com/kernel-person/heirloom-docs
 repo_name: kernel-person/heirloom-docs
@@ -52,6 +52,7 @@ nav:
   - Player Guide:
       - Overview: player-guide/index.md
       - Cooking Basics: player-guide/cooking.md
+      - In-game Station Tutorials: tutorials/station-tutorials.md
       - Recipe Search: player-guide/recipe-search.md
       - Favourite Food: player-guide/favourite-food.md
       - Food Quality: player-guide/quality.md
@@ -67,21 +68,27 @@ nav:
       - Espresso Martini: tutorials/mixology-espresso-martini.md
   - Cooking Stations:
       - Overview: stations/index.md
+      - Animated Kitchen: stations/animated-kitchen.md
       - Oven: stations/oven.md
       - Boiling Pot: stations/boiling-pot.md
       - Mixing Bowl: stations/mixing-bowl.md
       - Cutting Board: stations/cutting-board.md
       - Frying Pan: stations/frying-pan.md
       - Barista Machine: stations/barista-machine.md
+      - Mixology Table: stations/mixology-table.md
+      - Juicer: stations/juicer.md
   - Recipes:
       - Overview: recipes/index.md
       - Default Recipe Index: recipes/default-recipes.md
+      - Station Crafting: recipes/workstation-crafting.md
       - Oven Recipes: recipes/station-oven.md
       - Boiling Pot Recipes: recipes/station-boiling-pot.md
       - Mixing Bowl Recipes: recipes/station-mixing-bowl.md
       - Cutting Board Recipes: recipes/station-cutting-board.md
       - Frying Pan Recipes: recipes/station-frying-pan.md
       - Barista Recipes: recipes/station-barista-machine.md
+      - Mixology Recipes: recipes/station-mixology-table.md
+      - Juicer Recipes: recipes/station-juicer.md
       - Recipe Chains: recipes/recipe-chains.md
   - Gardening:
       - Overview: gardening/index.md
@@ -119,15 +126,23 @@ nav:
       - Visual Integrations: customization/visuals-overview.md
       - Nexo: customization/nexo.md
       - ItemsAdder: customization/itemsadder.md
+      - CraftEngine: customization/craftengine.md
+      - MMOItems: customization/mmoitems.md
       - Web Generator: customization/web-generator.md
   - Content Packs:
+      - Heirloom American Food Pack: content-packs/heirloom-american-food-pack.md
       - Heirloom Asian Food Pack: content-packs/heirloom-asian-food-pack.md
+      - Heirloom MMOItems Interop Demo Pack: content-packs/heirloom-mmoitems-interop-demo-pack.md
   - Addons:
       - Distillery:
           - Overview: addons/distillery/index.md
           - Getting Started: addons/distillery/getting-started.md
           - Brewing Flow: addons/distillery/brewing-flow.md
-          - Mashables And Traits: addons/distillery/mashables-traits.md
+          - Drink Families: addons/distillery/families.md
+          - Recipe Preview: addons/distillery/recipe-preview.md
+          - Cellar Aging: addons/distillery/cellar-aging.md
+          - Craftsmanship: addons/distillery/craftsmanship.md
+          - Ingredients And Flavour: addons/distillery/mashables-traits.md
           - Inebriation: addons/distillery/inebriation.md
           - Configuration: addons/distillery/configuration.md
           - Commands And Permissions: addons/distillery/commands-permissions.md
@@ -138,7 +153,22 @@ nav:
           - Coffee And Tea Flow: addons/cafe/coffee-tea.md
           - Configuration: addons/cafe/configuration.md
           - Commands And Permissions: addons/cafe/commands-permissions.md
+      - Pasture:
+          - Overview And Cheese: addons/pasture/dairy.md
+          - Animal Care: addons/pasture/animal-care.md
+      - Heirloom Mixology:
+          - Overview: addons/orchard/index.md
+      - Village Trades (candidate):
+          - Overview: addons/village-trades/index.md
+          - Setup: addons/village-trades/setup.md
+          - Survival Progression: addons/village-trades/survival.md
+          - Reference: addons/village-trades/reference.md
       - Future Addons: roadmap.md
+  - Developer API:
+      - Overview & Quickstart: developer/index.md
+      - Items & FoodFacts V2: developer/items-and-food-facts.md
+      - Bukkit Events: developer/events.md
+      - Addons & Registration: developer/addons-and-registration.md
   - Reference:
       - Overview: reference/index.md
       - Commands: reference/commands.md

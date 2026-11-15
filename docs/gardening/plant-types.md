@@ -7,6 +7,7 @@ Plant types define the physical block behavior behind a crop. Pick the type that
 | `SHORT_PLANT` | Lettuce | Ground plant on valid soil | Best default for simple crops |
 | `ALLIUM` | Onion | Flower-style ground plant | Useful for small vegetable visuals |
 | `TALL_PLANT` | Corn | Tall visual crop with vertical room | Needs space above the base block |
+| `ORCHARD_PINEAPPLE` | Mixology Pineapple | Short fern on valid soil | Upright fruit grows in the fern |
 | `VINE` | Tomato, grapes | Wall-attached vine | Needs a face to attach to; poor fit for random flat patches |
 | `AQUATIC` | Rice | Soil under water | Needs water setup and should be tested in claims |
 | `BUSH` | Addon/extended crops | Bush-style blocks | Good for berry-like crops |

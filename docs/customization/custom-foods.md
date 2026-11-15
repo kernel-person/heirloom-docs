@@ -22,10 +22,14 @@ Custom foods are defined in JSON under `custom_items` arrays. A custom food defi
 ## Advanced Fields To Know
 
 - `consume_return`: gives an item back after eating.
+- `item_model`: selects an item model such as `minecraft:lingering_potion` independently of `base_material`; a Potion remains drinkable. Juice also uses `color` for its tint.
 - `placeable_servings`: makes the food placeable and eaten in servings.
 - `feast`: enables shared-feast behavior.
 - `effects`: applies explicit potion effects when eaten.
-- `visual_id`: lets Nexo or ItemsAdder replace the visual without changing recipes.
+- `visual_id`: lets Nexo, ItemsAdder, CraftEngine, or MMOItems replace the visual without changing recipes.
+- `station_texture`: uses a cosmetic player-head texture for the ingredient displayed on a station; the original inventory stack remains the source for matching, processing, refunds and recovery.
+
+`station_texture` belongs to the custom item definition and accepts a real `textures.minecraft.net` texture URL. It does not change the inventory item or provider mapping. Heirloom Mixology uses it for fruit such as lemons and oranges; omitting it preserves the normal station visual.
 
 ## Common Mistakes
 

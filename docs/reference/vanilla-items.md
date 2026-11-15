@@ -14,10 +14,12 @@ Source-derived list of vanilla Minecraft items used by bundled Heirloom recipes 
 | <img class="hl-item-icon" src="../../images/items/minecraft/beetroot.png" alt="BEETROOT" title="BEETROOT"> | <span id="vanilla-item-beetroot"></span>`BEETROOT` | Beetroot | ok |
 | <img class="hl-item-icon" src="../../images/items/minecraft/birch-leaves.png" alt="BIRCH_LEAVES" title="BIRCH_LEAVES"> | <span id="vanilla-item-birch-leaves"></span>`BIRCH_LEAVES` | Birch Leaves | ok |
 | <img class="hl-item-icon" src="../../images/items/minecraft/blue-egg.png" alt="BLUE_EGG" title="BLUE_EGG"> | <span id="vanilla-item-blue-egg"></span>`BLUE_EGG` | Blue Egg | ok |
+| <img class="hl-item-icon" src="../../images/items/minecraft/blue-ice.png" alt="BLUE_ICE" title="BLUE_ICE"> | <span id="vanilla-item-blue-ice"></span>`BLUE_ICE` | Blue Ice | ok |
 | <img class="hl-item-icon" src="../../images/items/minecraft/blue-orchid.png" alt="BLUE_ORCHID" title="BLUE_ORCHID"> | <span id="vanilla-item-blue-orchid"></span>`BLUE_ORCHID` | Blue Orchid | ok |
 | <img class="hl-item-icon" src="../../images/items/minecraft/bowl.png" alt="BOWL" title="BOWL"> | <span id="vanilla-item-bowl"></span>`BOWL` | Bowl | ok |
 | <img class="hl-item-icon" src="../../images/items/minecraft/brown-egg.png" alt="BROWN_EGG" title="BROWN_EGG"> | <span id="vanilla-item-brown-egg"></span>`BROWN_EGG` | Brown Egg | ok |
 | <img class="hl-item-icon" src="../../images/items/minecraft/brown-mushroom.png" alt="BROWN_MUSHROOM" title="BROWN_MUSHROOM"> | <span id="vanilla-item-brown-mushroom"></span>`BROWN_MUSHROOM` | Brown Mushroom | ok |
+| <img class="hl-item-icon" src="../../images/items/minecraft/cactus.png" alt="CACTUS" title="CACTUS"> | <span id="vanilla-item-cactus"></span>`CACTUS` | Cactus | ok |
 | <img class="hl-item-icon" src="../../images/items/minecraft/carrot.png" alt="CARROT" title="CARROT"> | <span id="vanilla-item-carrot"></span>`CARROT` | Carrot | ok |
 | <img class="hl-item-icon" src="../../images/items/minecraft/cherry-leaves.png" alt="CHERRY_LEAVES" title="CHERRY_LEAVES"> | <span id="vanilla-item-cherry-leaves"></span>`CHERRY_LEAVES` | Cherry Leaves | ok |
 | <img class="hl-item-icon" src="../../images/items/minecraft/chicken.png" alt="CHICKEN" title="CHICKEN"> | <span id="vanilla-item-chicken"></span>`CHICKEN` | Chicken | ok |
@@ -34,14 +36,18 @@ Source-derived list of vanilla Minecraft items used by bundled Heirloom recipes 
 | <img class="hl-item-icon" src="../../images/items/minecraft/dark-oak-leaves.png" alt="DARK_OAK_LEAVES" title="DARK_OAK_LEAVES"> | <span id="vanilla-item-dark-oak-leaves"></span>`DARK_OAK_LEAVES` | Dark Oak Leaves | ok |
 | <img class="hl-item-icon" src="../../images/items/minecraft/dried-kelp.png" alt="DRIED_KELP" title="DRIED_KELP"> | <span id="vanilla-item-dried-kelp"></span>`DRIED_KELP` | Dried Kelp | ok |
 | <img class="hl-item-icon" src="../../images/items/minecraft/egg.png" alt="EGG" title="EGG"> | <span id="vanilla-item-egg"></span>`EGG` | Egg | ok |
+| <img class="hl-item-icon" src="../../images/items/minecraft/enchanted-golden-apple.png" alt="ENCHANTED_GOLDEN_APPLE" title="ENCHANTED_GOLDEN_APPLE"> | <span id="vanilla-item-enchanted-golden-apple"></span>`ENCHANTED_GOLDEN_APPLE` | Enchanted Golden Apple | ok |
+| <img class="hl-item-icon" src="../../images/items/minecraft/fern.png" alt="FERN" title="FERN"> | <span id="vanilla-item-fern"></span>`FERN` | Fern | ok |
 | <img class="hl-item-icon" src="../../images/items/minecraft/flowering-azalea-leaves.png" alt="FLOWERING_AZALEA_LEAVES" title="FLOWERING_AZALEA_LEAVES"> | <span id="vanilla-item-flowering-azalea-leaves"></span>`FLOWERING_AZALEA_LEAVES` | Flowering Azalea Leaves | ok |
 | <img class="hl-item-icon" src="../../images/items/minecraft/glass-bottle.png" alt="GLASS_BOTTLE" title="GLASS_BOTTLE"> | <span id="vanilla-item-glass-bottle"></span>`GLASS_BOTTLE` | Glass Bottle | ok |
 | <img class="hl-item-icon" src="../../images/items/minecraft/glow-berries.png" alt="GLOW_BERRIES" title="GLOW_BERRIES"> | <span id="vanilla-item-glow-berries"></span>`GLOW_BERRIES` | Glow Berries | ok |
 | <img class="hl-item-icon" src="../../images/items/minecraft/golden-apple.png" alt="GOLDEN_APPLE" title="GOLDEN_APPLE"> | <span id="vanilla-item-golden-apple"></span>`GOLDEN_APPLE` | Golden Apple | ok |
+| <img class="hl-item-icon" src="../../images/items/minecraft/golden-carrot.png" alt="GOLDEN_CARROT" title="GOLDEN_CARROT"> | <span id="vanilla-item-golden-carrot"></span>`GOLDEN_CARROT` | Golden Carrot | ok |
 | <img class="hl-item-icon" src="../../images/items/minecraft/green-dye.png" alt="GREEN_DYE" title="GREEN_DYE"> | <span id="vanilla-item-green-dye"></span>`GREEN_DYE` | Green Dye | ok |
 | <img class="hl-item-icon" src="../../images/items/minecraft/honey-bottle.png" alt="HONEY_BOTTLE" title="HONEY_BOTTLE"> | <span id="vanilla-item-honey-bottle"></span>`HONEY_BOTTLE` | Honey Bottle | ok |
 | <img class="hl-item-icon" src="../../images/items/minecraft/ice.png" alt="ICE" title="ICE"> | <span id="vanilla-item-ice"></span>`ICE` | Ice | ok |
 | <img class="hl-item-icon" src="../../images/items/minecraft/iron-hoe.png" alt="IRON_HOE" title="IRON_HOE"> | <span id="vanilla-item-iron-hoe"></span>`IRON_HOE` | Iron Hoe | ok |
+| <img class="hl-item-icon" src="../../images/items/minecraft/iron-ingot.png" alt="IRON_INGOT" title="IRON_INGOT"> | <span id="vanilla-item-iron-ingot"></span>`IRON_INGOT` | Iron Ingot | ok |
 | <img class="hl-item-icon" src="../../images/items/minecraft/jungle-leaves.png" alt="JUNGLE_LEAVES" title="JUNGLE_LEAVES"> | <span id="vanilla-item-jungle-leaves"></span>`JUNGLE_LEAVES` | Jungle Leaves | ok |
 | <img class="hl-item-icon" src="../../images/items/minecraft/knowledge-book.png" alt="KNOWLEDGE_BOOK" title="KNOWLEDGE_BOOK"> | <span id="vanilla-item-knowledge-book"></span>`KNOWLEDGE_BOOK` | Knowledge Book | ok |
 | <img class="hl-item-icon" src="../../images/items/minecraft/leaf-litter.png" alt="LEAF_LITTER" title="LEAF_LITTER"> | <span id="vanilla-item-leaf-litter"></span>`LEAF_LITTER` | Leaf Litter | ok |
@@ -58,6 +64,7 @@ Source-derived list of vanilla Minecraft items used by bundled Heirloom recipes 
 | <img class="hl-item-icon" src="../../images/items/minecraft/paper.png" alt="PAPER" title="PAPER"> | <span id="vanilla-item-paper"></span>`PAPER` | Paper | ok |
 | <img class="hl-item-icon" src="../../images/items/minecraft/peony.png" alt="PEONY" title="PEONY"> | <span id="vanilla-item-peony"></span>`PEONY` | Peony | ok |
 | <img class="hl-item-icon" src="../../images/items/minecraft/pink-tulip.png" alt="PINK_TULIP" title="PINK_TULIP"> | <span id="vanilla-item-pink-tulip"></span>`PINK_TULIP` | Pink Tulip | ok |
+| <img class="hl-item-icon" src="../../images/items/minecraft/poisonous-potato.png" alt="POISONOUS_POTATO" title="POISONOUS_POTATO"> | <span id="vanilla-item-poisonous-potato"></span>`POISONOUS_POTATO` | Poisonous Potato | ok |
 | <img class="hl-item-icon" src="../../images/items/minecraft/poppy.png" alt="POPPY" title="POPPY"> | <span id="vanilla-item-poppy"></span>`POPPY` | Poppy | ok |
 | <img class="hl-item-icon" src="../../images/items/minecraft/porkchop.png" alt="PORKCHOP" title="PORKCHOP"> | <span id="vanilla-item-porkchop"></span>`PORKCHOP` | Porkchop | ok |
 | <img class="hl-item-icon" src="../../images/items/minecraft/potato.png" alt="POTATO" title="POTATO"> | <span id="vanilla-item-potato"></span>`POTATO` | Potato | ok |
@@ -72,6 +79,7 @@ Source-derived list of vanilla Minecraft items used by bundled Heirloom recipes 
 | <img class="hl-item-icon" src="../../images/items/minecraft/spruce-leaves.png" alt="SPRUCE_LEAVES" title="SPRUCE_LEAVES"> | <span id="vanilla-item-spruce-leaves"></span>`SPRUCE_LEAVES` | Spruce Leaves | ok |
 | <img class="hl-item-icon" src="../../images/items/minecraft/stick.png" alt="STICK" title="STICK"> | <span id="vanilla-item-stick"></span>`STICK` | Stick | ok |
 | <img class="hl-item-icon" src="../../images/items/minecraft/sugar.png" alt="SUGAR" title="SUGAR"> | <span id="vanilla-item-sugar"></span>`SUGAR` | Sugar | ok |
+| <img class="hl-item-icon" src="../../images/items/minecraft/sugar-cane.png" alt="SUGAR_CANE" title="SUGAR_CANE"> | <span id="vanilla-item-sugar-cane"></span>`SUGAR_CANE` | Sugar Cane | ok |
 | <img class="hl-item-icon" src="../../images/items/minecraft/sunflower.png" alt="SUNFLOWER" title="SUNFLOWER"> | <span id="vanilla-item-sunflower"></span>`SUNFLOWER` | Sunflower | ok |
 | <img class="hl-item-icon" src="../../images/items/minecraft/sweet-berries.png" alt="SWEET_BERRIES" title="SWEET_BERRIES"> | <span id="vanilla-item-sweet-berries"></span>`SWEET_BERRIES` | Sweet Berries | ok |
 | <img class="hl-item-icon" src="../../images/items/minecraft/tropical-fish.png" alt="TROPICAL_FISH" title="TROPICAL_FISH"> | <span id="vanilla-item-tropical-fish"></span>`TROPICAL_FISH` | Tropical Fish | ok |

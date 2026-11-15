@@ -13,6 +13,7 @@ Recommended default grants:
 /lp group default permission set heirloom.advancements true
 /lp group default permission set heirloom.favourite true
 /lp group default permission set heirloom.mastery true
+/lp group default permission set heirloom.tutorial true
 ```
 
 Grant crop permissions if you keep the bundled crop permission nodes enabled.

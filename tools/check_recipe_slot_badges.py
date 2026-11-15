@@ -6,6 +6,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 BOILING_POT = ROOT / "docs/recipes/station-boiling-pot.md"
 DEFAULT_RECIPES = ROOT / "docs/recipes/default-recipes.md"
+MIXOLOGY = ROOT / "docs/recipes/station-mixology-table.md"
 CSS = ROOT / "docs/stylesheets/extra.css"
 
 
@@ -23,6 +24,7 @@ def main() -> int:
     station = BOILING_POT.read_text(encoding="utf-8")
     details = DEFAULT_RECIPES.read_text(encoding="utf-8")
     css = CSS.read_text(encoding="utf-8")
+    mixology = MIXOLOGY.read_text(encoding="utf-8")
     combined = station + "\n" + details
 
     assert_not_contains(combined, "up to")
@@ -37,6 +39,14 @@ def main() -> int:
     assert_contains(station, '<span class="hl-slot-count">0-1</span></span></span>')
     assert_contains(station, '<span class="hl-choice-separator">or</span>')
     assert_contains(station, 'title="Required slot 1: 1; COD or SALMON"><span class="hl-slot-box"><span class="hl-slot-choice-icons"')
+    russian = next(line for line in mixology.splitlines() if '`ORCHARD_BLACK_RUSSIAN`' in line)
+    assert_contains(russian, 'HEAVY_CREAM or ORCHARD_IRISH_CREAM_LIQUEUR')
+    assert_contains(russian, '<span class="hl-slot-count">0-1</span>')
+    for name in ('Black Russian', 'White Russian', 'Mudslide'):
+        assert_contains(russian, name)
+    negroni = next(line for line in mixology.splitlines() if '`ORCHARD_NEGRONI`' in line)
+    assert_contains(negroni, 'ORCHARD_GIN or ORCHARD_WHISKEY')
+    assert_contains(negroni, 'Boulevardier')
 
     assert_contains(css, '.md-typeset .hl-slot-box')
     assert_contains(css, '.md-typeset .hl-recipe-slots .hl-item-icon')
